@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_hammer/durability_2",
+	"textures":{
+		"0" : "item/copper_hammer",
+		"particle" : "item/copper_hammer"
+	}
+}

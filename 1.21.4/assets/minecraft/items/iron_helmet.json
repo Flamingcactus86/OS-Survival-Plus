@@ -1,0 +1,161 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type": "minecraft:model",
+				"model": "minecraft:item/iron_helmet"
+			},
+			{
+				"type": "minecraft:select",
+				"cases": [
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/iron"
+					},
+					"when": "minecraft:iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/redstone"
+					},
+					"when": "minecraft:redstone"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/emerald"
+					},
+					"when": "minecraft:emerald"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/gold"
+					},
+					"when": "minecraft:gold"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/obsidian"
+					},
+					"when": "ossurvivalplus:obsidian"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/copper"
+					},
+					"when": "minecraft:copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/resin"
+					},
+					"when": "minecraft:resin"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/netherite"
+					},
+					"when": "minecraft:netherite"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/amethyst"
+					},
+					"when": "minecraft:amethyst"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/quartz"
+					},
+					"when": "minecraft:quartz"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/diamond"
+					},
+					"when": "minecraft:diamond"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/lapis"
+					},
+					"when": "minecraft:lapis"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/oxidized_copper"
+					},
+					"when": "ossurvivalplus:oxidized_copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/raw_iron"
+					},
+					"when": "ossurvivalplus:raw_iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/echo"
+					},
+					"when": "ossurvivalplus:echo"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/breeze"
+					},
+					"when": "ossurvivalplus:breeze"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/rainbow"
+					},
+					"when": "ossurvivalplus:rainbow"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/void"
+					},
+					"when": "ossurvivalplus:void"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/pastel"
+					},
+					"when": "ossurvivalplus:pastel"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/helmet/cocoa"
+					},
+					"when": "ossurvivalplus:cocoa"
+				  }
+				],
+				"fallback": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:trim_material"
+			  }
+		]
+	}
+}

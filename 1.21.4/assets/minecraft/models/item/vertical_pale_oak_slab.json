@@ -1,0 +1,7 @@
+{
+	"parent" : "item/vertical_slab",
+	"textures" : {
+		"0" : "block/pale_oak_planks",
+		"particle" : "block/pale_oak_planks"
+	}
+}

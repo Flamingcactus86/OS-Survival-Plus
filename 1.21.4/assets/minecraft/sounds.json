@@ -1,0 +1,88 @@
+{
+	"skulldoot":{
+		"sounds":[
+			"skulldoot"
+		]
+	},
+	"music_disc.droopy_likes_your_face" : {
+		"sounds" : [
+			"music_disc/c418_droopy_likes_your_face"
+		]
+	},
+	"music_disc.droopy_likes_ricochet" : {
+		"sounds" : [
+			"music_disc/c418_droopy_likes_ricochet"
+		]
+	},
+	"music_disc.dog" : {
+		"sounds" : [
+			"music_disc/c418_dog"
+		]
+	},
+	"music_disc.death" : {
+		"sounds" : [
+			"music_disc/c418_death"
+		]
+	},
+	"music_disc.eleven_song" : {
+		"sounds" : [
+			"music_disc/c418_eleven_song"
+		]
+	},
+	"music_disc.intro" : {
+		"sounds" : [
+			"music_disc/c418_intro"
+		]
+	},
+	"music_disc.moog_city" : {
+		"sounds" : [
+			"music_disc/c418_moog_city"
+		]
+	},
+	"music_disc.beginning" : {
+		"sounds" : [
+			"music_disc/c418_beginning"
+		]
+	},
+	"music_disc.equinoxe" : {
+		"sounds" : [
+			"music_disc/c418_equinoxe"
+		]
+	},
+	"music_disc.chris" : {
+		"sounds" : [
+			"music_disc/c418_chris"
+		]
+	},
+	"music_disc.door" : {
+		"sounds" : [
+			"music_disc/c418_door"
+		]
+	},
+	"music_disc.magnetic_circuit" : {
+		"sounds" : [
+			"music_disc/calm4"
+		]
+	},
+	"music.overworld.cold_biome" : {
+		"sounds" : [
+			"music/c418_excuse",
+			"music/c418_flake",
+			"music/c418_kyoto"
+		]
+	},
+	"music.herobrine_glitch.overworld" : {
+		"sounds" : [
+			"entity/herobrine/glitch_music/haggstrom_glitch",
+			"entity/herobrine/glitch_music/minecraft_glitch",
+			"entity/herobrine/glitch_music/subwoofer_glitch",
+			"entity/herobrine/glitch_music/biome_fest_11_glitch",
+			"entity/herobrine/glitch_music/dry_hands_glitch"
+		]
+	},
+	"music.herobrine_glitch.overworld.subtle" : {
+		"sounds" : [
+			"entity/herobrine/glitch_music/dry_hands_glitch"
+		]
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_axe/durability_1",
+	"textures":{
+		"particle" : "item/stick",
+		"0" : "trims/items/axe_trim_diamond"
+	}
+}

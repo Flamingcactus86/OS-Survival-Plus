@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_boomerang/durability_5",
+	"textures":{
+		"0" : "item/iron_boomerang",
+		"particle" : "item/iron_boomerang"
+	}
+}

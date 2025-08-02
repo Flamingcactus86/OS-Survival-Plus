@@ -1,0 +1,348 @@
+{
+	"model" : {
+		"type": "minecraft:select",
+		"cases": [
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_acacia_slab"
+			},
+			"when": "acacia"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_bamboo_slab"
+			},
+			"when": "bamboo"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_bamboo_mosaic_slab"
+			},
+			"when": "bamboo_mosaic"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_birch_slab"
+			},
+			"when": "birch"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_bricks_slab"
+			},
+			"when": "bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_cherry_slab"
+			},
+			"when": "cherry"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_cobbled_deepslate_slab"
+			},
+			"when": "cobbled_deepslate"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_cobblestone_slab"
+			},
+			"when": "cobblestone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_crimson_slab"
+			},
+			"when": "crimson"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_dark_oak_slab"
+			},
+			"when": "dark_oak"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_deepslate_bricks_slab"
+			},
+			"when": "deepslate_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_deepslate_tiles_slab"
+			},
+			"when": "deepslate_tiles"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_end_stone_bricks_slab"
+			},
+			"when": "end_stone_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_jungle_slab"
+			},
+			"when": "jungle"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_mangrove_slab"
+			},
+			"when": "mangrove"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_mossy_cobblestone_slab"
+			},
+			"when": "mossy_cobblestone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_mossy_stone_bricks_slab"
+			},
+			"when": "mossy_stone_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_nether_bricks_slab"
+			},
+			"when": "nether_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_oak_slab"
+			},
+			"when": "oak"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_polished_deepslate_slab"
+			},
+			"when": "polished_deepslate"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_purpur_block_slab"
+			},
+			"when": "purpur_block"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_red_nether_bricks_slab"
+			},
+			"when": "red_nether_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_smooth_stone_slab"
+			},
+			"when": "smooth_stone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_spruce_slab"
+			},
+			"when": "spruce"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_stone_bricks_slab"
+			},
+			"when": "stone_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_stone_slab"
+			},
+			"when": "stone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_warped_slab"
+			},
+			"when": "warped"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_pale_oak_slab"
+			},
+			"when": "pale_oak"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_tuff_slab"
+			},
+			"when": "tuff"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_polished_tuff_slab"
+			},
+			"when": "polished_tuff"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_tuff_bricks_slab"
+			},
+			"when": "tuff_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_mud_bricks_slab"
+			},
+			"when": "mud_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_resin_bricks_slab"
+			},
+			"when": "resin_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_sandstone_slab"
+			},
+			"when": "sandstone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_smooth_sandstone_slab"
+			},
+			"when": "smooth_sandstone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_cut_sandstone_slab"
+			},
+			"when": "cut_sandstone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_red_sandstone_slab"
+			},
+			"when": "red_sandstone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_smooth_red_sandstone_slab"
+			},
+			"when": "smooth_red_sandstone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_cut_red_sandstone_slab"
+			},
+			"when": "cut_red_sandstone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_prismarine_slab"
+			},
+			"when": "prismarine"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_prismarine_bricks_slab"
+			},
+			"when": "prismarine_bricks"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_dark_prismarine_slab"
+			},
+			"when": "dark_prismarine"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_quartz_slab"
+			},
+			"when": "quartz"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_smooth_quartz_slab"
+			},
+			"when": "smooth_quartz"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_cut_copper_slab"
+			},
+			"when": "cut_copper"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_blackstone_slab"
+			},
+			"when": "blackstone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_polished_blackstone_slab"
+			},
+			"when": "polished_blackstone"
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/vertical_polished_blackstone_bricks_slab"
+			},
+			"when": "polished_blackstone_bricks"
+		  }
+		],
+		"fallback": {
+		  "type": "minecraft:model",
+		  "model": "minecraft:item/vertical_oak_slab"
+		},
+		"property": "minecraft:custom_model_data"
+	}
+}

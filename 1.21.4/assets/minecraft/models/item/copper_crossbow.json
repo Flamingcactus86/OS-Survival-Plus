@@ -1,0 +1,7 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "item/copper_crossbow",
+		"particle" : "item/copper_crossbow"
+    }
+}

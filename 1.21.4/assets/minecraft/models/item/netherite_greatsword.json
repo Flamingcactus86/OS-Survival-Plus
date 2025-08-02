@@ -1,0 +1,7 @@
+{
+    "parent": "item/greatsword",
+    "textures": {
+        "0": "item/netherite_greatsword",
+		"particle": "item/netherite_greatsword"
+    }
+}

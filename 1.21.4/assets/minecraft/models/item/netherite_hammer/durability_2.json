@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_hammer/durability_2",
+	"textures":{
+		"0" : "item/netherite_hammer",
+		"particle" : "item/netherite_hammer"
+	}
+}

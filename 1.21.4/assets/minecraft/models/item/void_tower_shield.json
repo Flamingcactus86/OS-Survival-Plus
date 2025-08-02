@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld_tower_shield",
+	"textures": {
+		"0": "item/void_tower_shield",
+		"particle": "item/void_tower_shield"
+	}
+}

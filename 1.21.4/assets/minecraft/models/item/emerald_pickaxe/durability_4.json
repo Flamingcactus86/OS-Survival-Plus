@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_pickaxe/durability_4",
+	"textures":{
+		"0" : "item/emerald_pickaxe",
+		"particle" : "item/emerald_pickaxe"
+	}
+}

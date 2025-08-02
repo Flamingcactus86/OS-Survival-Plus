@@ -1,0 +1,190 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type": "minecraft:condition",
+				"on_false": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/golden_bow"
+				},
+				"on_true": {
+					"type": "minecraft:range_dispatch",
+					"entries": [
+						{
+							"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/golden_bow_pulling_1"
+							},
+						"threshold": 0.65
+						},
+						{
+							"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/golden_bow_pulling_2"
+							},
+							"threshold": 0.9
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/golden_bow_pulling_0"
+					},
+					"property": "minecraft:use_duration",
+					"scale": 0.05
+				},
+				"property": "minecraft:using_item"
+			},
+			{
+				"type": "minecraft:select",
+				"cases": [
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/iron"
+					},
+					"when": "minecraft:iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/redstone"
+					},
+					"when": "minecraft:redstone"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/emerald"
+					},
+					"when": "minecraft:emerald"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/gold"
+					},
+					"when": "minecraft:gold"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/obsidian"
+					},
+					"when": "ossurvivalplus:obsidian"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/copper"
+					},
+					"when": "minecraft:copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/resin"
+					},
+					"when": "minecraft:resin"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/netherite"
+					},
+					"when": "minecraft:netherite"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/amethyst"
+					},
+					"when": "minecraft:amethyst"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/quartz"
+					},
+					"when": "minecraft:quartz"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/diamond"
+					},
+					"when": "minecraft:diamond"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/lapis"
+					},
+					"when": "minecraft:lapis"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/oxidized_copper"
+					},
+					"when": "ossurvivalplus:oxidized_copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/raw_iron"
+					},
+					"when": "ossurvivalplus:raw_iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/echo"
+					},
+					"when": "ossurvivalplus:echo"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/breeze"
+					},
+					"when": "ossurvivalplus:breeze"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/rainbow"
+					},
+					"when": "ossurvivalplus:rainbow"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/void"
+					},
+					"when": "ossurvivalplus:void"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/pastel"
+					},
+					"when": "ossurvivalplus:pastel"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/cocoa"
+					},
+					"when": "ossurvivalplus:cocoa"
+				  }
+				],
+				"fallback": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:trim_material"
+			  }
+		]
+	}
+}

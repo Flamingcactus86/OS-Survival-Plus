@@ -1,0 +1,209 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type": "minecraft:range_dispatch",
+				"property": "minecraft:damage",
+				"entries": [
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/amethyst_hoe/durability_1"
+						},
+						"threshold": 0.0
+					},
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/amethyst_hoe/durability_2"
+						},
+						"threshold": 0.1
+					},
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/amethyst_hoe/durability_3"
+						},
+						"threshold": 0.3
+					},
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/amethyst_hoe/durability_4"
+						},
+						"threshold": 0.5
+					},
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/amethyst_hoe/durability_5"
+						},
+						"threshold": 0.7
+					},
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/amethyst_hoe/durability_6"
+						},
+						"threshold": 0.9
+					}
+				],
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/amethyst_hoe/durability_1"
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"cases": [
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/iron"
+					},
+					"when": "minecraft:iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/redstone"
+					},
+					"when": "minecraft:redstone"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/emerald"
+					},
+					"when": "minecraft:emerald"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/gold"
+					},
+					"when": "minecraft:gold"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/obsidian"
+					},
+					"when": "ossurvivalplus:obsidian"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/copper"
+					},
+					"when": "minecraft:copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/resin"
+					},
+					"when": "minecraft:resin"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/netherite"
+					},
+					"when": "minecraft:netherite"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/amethyst"
+					},
+					"when": "minecraft:amethyst"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/quartz"
+					},
+					"when": "minecraft:quartz"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/diamond"
+					},
+					"when": "minecraft:diamond"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/lapis"
+					},
+					"when": "minecraft:lapis"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/oxidized_copper"
+					},
+					"when": "ossurvivalplus:oxidized_copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/raw_iron"
+					},
+					"when": "ossurvivalplus:raw_iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/echo"
+					},
+					"when": "ossurvivalplus:echo"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/breeze"
+					},
+					"when": "ossurvivalplus:breeze"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/rainbow"
+					},
+					"when": "ossurvivalplus:rainbow"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/void"
+					},
+					"when": "ossurvivalplus:void"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/pastel"
+					},
+					"when": "ossurvivalplus:pastel"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/hoe/cocoa"
+					},
+					"when": "ossurvivalplus:cocoa"
+				  }
+				],
+				"fallback": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:trim_material"
+			  }
+		]
+	}
+}

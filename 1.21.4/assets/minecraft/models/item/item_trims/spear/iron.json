@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_spear/durability_1",
+	"textures":{
+		"particle" : "item/stick",
+		"0" : "trims/items/spear_trim_iron"
+	}
+}

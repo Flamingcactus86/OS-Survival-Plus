@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld_void_weapon",
+	"textures": {
+		"layer0": "item/void_pickaxe"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/entity/minkoon/stand_down",
+    "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": 0
+      }
+    ]
+  }
+}

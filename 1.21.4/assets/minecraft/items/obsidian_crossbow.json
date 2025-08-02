@@ -1,0 +1,213 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type" : "minecraft:model",
+				"model" : "item/obsidian_crossbow"
+			},
+			{
+				"type": "minecraft:condition",
+				"on_false": {
+				  "type": "minecraft:select",
+				  "cases": [
+					{
+					  "model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/crossbow_arrow"
+					  },
+					  "when": "arrow"
+					},
+					{
+					  "model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/crossbow_firework"
+					  },
+					  "when": "rocket"
+					}
+				  ],
+				  "fallback": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/crossbow"
+				  },
+				  "property": "minecraft:charge_type"
+				},
+				"on_true": {
+				  "type": "minecraft:range_dispatch",
+				  "entries": [
+					{
+					  "model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/crossbow_pulling_1"
+					  },
+					  "threshold": 0.58
+					},
+					{
+					  "model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/crossbow_pulling_2"
+					  },
+					  "threshold": 1.0
+					}
+				  ],
+				  "fallback": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/crossbow_pulling_0"
+				  },
+				  "property": "minecraft:crossbow/pull"
+				},
+				"property": "minecraft:using_item"
+			  },
+			{
+				"type": "minecraft:select",
+				"cases": [
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/iron"
+					},
+					"when": "minecraft:iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/redstone"
+					},
+					"when": "minecraft:redstone"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/emerald"
+					},
+					"when": "minecraft:emerald"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/gold"
+					},
+					"when": "minecraft:gold"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/obsidian"
+					},
+					"when": "ossurvivalplus:obsidian"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/copper"
+					},
+					"when": "minecraft:copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/resin"
+					},
+					"when": "minecraft:resin"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/netherite"
+					},
+					"when": "minecraft:netherite"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/amethyst"
+					},
+					"when": "minecraft:amethyst"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/quartz"
+					},
+					"when": "minecraft:quartz"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/diamond"
+					},
+					"when": "minecraft:diamond"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/lapis"
+					},
+					"when": "minecraft:lapis"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/oxidized_copper"
+					},
+					"when": "ossurvivalplus:oxidized_copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/raw_iron"
+					},
+					"when": "ossurvivalplus:raw_iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/echo"
+					},
+					"when": "ossurvivalplus:echo"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/breeze"
+					},
+					"when": "ossurvivalplus:breeze"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/rainbow"
+					},
+					"when": "ossurvivalplus:rainbow"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/void"
+					},
+					"when": "ossurvivalplus:void"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/pastel"
+					},
+					"when": "ossurvivalplus:pastel"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/crossbow/cocoa"
+					},
+					"when": "ossurvivalplus:cocoa"
+				  }
+				],
+				"fallback": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:trim_material"
+			  }
+		]
+	}
+}

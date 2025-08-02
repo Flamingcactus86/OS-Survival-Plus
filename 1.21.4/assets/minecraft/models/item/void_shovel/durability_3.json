@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_shovel/durability_3",
+	"textures":{
+		"0" : "item/void_shovel",
+		"particle" : "item/void_shovel"
+	}
+}

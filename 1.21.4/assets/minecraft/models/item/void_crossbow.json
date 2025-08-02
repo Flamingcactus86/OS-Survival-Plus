@@ -1,0 +1,7 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "item/void_crossbow",
+		"particle" : "item/void_crossbow"
+    }
+}

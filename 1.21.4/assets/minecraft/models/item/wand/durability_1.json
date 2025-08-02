@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_wand/durability_1",
+	"textures":{
+		"0" : "item/wand",
+		"particle" : "item/wand"
+	}
+}

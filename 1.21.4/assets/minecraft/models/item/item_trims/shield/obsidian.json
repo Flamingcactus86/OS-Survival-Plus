@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_shield",
+	"textures":{
+		"particle" : "item/stick",
+		"0" : "trims/items/shield_trim_obsidian"
+	}
+}

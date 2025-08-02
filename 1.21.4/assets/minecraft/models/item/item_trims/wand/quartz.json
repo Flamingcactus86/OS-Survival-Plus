@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_wand/durability_1",
+	"textures":{
+		"particle" : "item/stick",
+		"0" : "trims/items/wand_trim_quartz"
+	}
+}

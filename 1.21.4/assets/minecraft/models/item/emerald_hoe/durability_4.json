@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_hoe/durability_4",
+	"textures":{
+		"0" : "item/emerald_hoe",
+		"particle" : "item/emerald_hoe"
+	}
+}

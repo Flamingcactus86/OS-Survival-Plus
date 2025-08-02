@@ -1,0 +1,324 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:composite",
+      "models" : [
+		{
+		  "type": "minecraft:model",
+		  "model" : "minecraft:item/diamond_tower_shield"
+		},
+		{
+			"type": "minecraft:select",
+			"cases": [
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/iron"
+				},
+				"when": "minecraft:iron"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/redstone"
+				},
+				"when": "minecraft:redstone"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/emerald"
+				},
+				"when": "minecraft:emerald"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/gold"
+				},
+				"when": "minecraft:gold"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/obsidian"
+				},
+				"when": "ossurvivalplus:obsidian"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/copper"
+				},
+				"when": "minecraft:copper"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/resin"
+				},
+				"when": "minecraft:resin"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/netherite"
+				},
+				"when": "minecraft:netherite"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/amethyst"
+				},
+				"when": "minecraft:amethyst"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/quartz"
+				},
+				"when": "minecraft:quartz"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/diamond"
+				},
+				"when": "minecraft:diamond"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/lapis"
+				},
+				"when": "minecraft:lapis"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/oxidized_copper"
+				},
+				"when": "ossurvivalplus:oxidized_copper"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/raw_iron"
+				},
+				"when": "ossurvivalplus:raw_iron"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/echo"
+				},
+				"when": "ossurvivalplus:echo"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/breeze"
+				},
+				"when": "ossurvivalplus:breeze"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/rainbow"
+				},
+				"when": "ossurvivalplus:rainbow"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/void"
+				},
+				"when": "ossurvivalplus:void"
+			  },
+			  {
+				"model": {
+				"type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/pastel"
+				},
+				"when": "ossurvivalplus:pastel"
+			  },
+			  {
+				"model": {
+				"type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield/cocoa"
+				},
+				"when": "ossurvivalplus:cocoa"
+			  }
+			],
+			"fallback": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/empty"
+			},
+			"property": "minecraft:trim_material"
+		}
+	  ]
+    },
+    "on_true": {
+      "type": "minecraft:composite",
+      "models" : [
+		{
+		  "type": "minecraft:model",
+		  "model" : "minecraft:item/diamond_tower_shield_blocking"
+		},
+		{
+			"type": "minecraft:select",
+			"cases": [
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/iron"
+				},
+				"when": "minecraft:iron"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/redstone"
+				},
+				"when": "minecraft:redstone"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/emerald"
+				},
+				"when": "minecraft:emerald"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/gold"
+				},
+				"when": "minecraft:gold"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/obsidian"
+				},
+				"when": "ossurvivalplus:obsidian"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/copper"
+				},
+				"when": "minecraft:copper"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/resin"
+				},
+				"when": "minecraft:resin"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/netherite"
+				},
+				"when": "minecraft:netherite"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/amethyst"
+				},
+				"when": "minecraft:amethyst"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/quartz"
+				},
+				"when": "minecraft:quartz"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/diamond"
+				},
+				"when": "minecraft:diamond"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/lapis"
+				},
+				"when": "minecraft:lapis"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/oxidized_copper"
+				},
+				"when": "ossurvivalplus:oxidized_copper"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/raw_iron"
+				},
+				"when": "ossurvivalplus:raw_iron"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/echo"
+				},
+				"when": "ossurvivalplus:echo"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/breeze"
+				},
+				"when": "ossurvivalplus:breeze"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/rainbow"
+				},
+				"when": "ossurvivalplus:rainbow"
+			  },
+			  {
+				"model": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/void"
+				},
+				"when": "ossurvivalplus:void"
+			  },
+			  {
+				"model": {
+				"type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/pastel"
+				},
+				"when": "ossurvivalplus:pastel"
+			  },
+			  {
+				"model": {
+				"type": "minecraft:model",
+				  "model": "minecraft:item/item_trims/tower_shield_blocking/cocoa"
+				},
+				"when": "ossurvivalplus:cocoa"
+			  }
+			],
+			"fallback": {
+			  "type": "minecraft:model",
+			  "model": "minecraft:item/empty"
+			},
+			"property": "minecraft:trim_material"
+		}
+	  ]
+    },
+    "property": "minecraft:using_item"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "item/stone_crossbow",
+		"particle" : "item/stone_crossbow"
+    }
+}

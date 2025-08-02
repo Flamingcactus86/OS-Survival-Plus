@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_sword/durability_3",
+	"textures":{
+		"0" : "item/emerald_sword",
+		"particle" : "item/emerald_sword"
+	}
+}

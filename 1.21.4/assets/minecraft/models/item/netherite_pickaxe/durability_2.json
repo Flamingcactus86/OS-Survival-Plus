@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_pickaxe/durability_2",
+	"textures":{
+		"0" : "item/netherite_pickaxe",
+		"particle" : "item/netherite_pickaxe"
+	}
+}

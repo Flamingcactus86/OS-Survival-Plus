@@ -1,0 +1,7 @@
+{
+	"parent":"item/generated",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/chestplate_trim_obsidian"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent" : "item/vertical_slab",
+	"textures" : {
+		"0" : "block/mossy_stone_bricks",
+		"particle" : "block/mossy_stone_bricks"
+	}
+}

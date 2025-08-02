@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_tower_shield",
+	"textures":{
+		"particle" : "item/stick",
+		"0" : "trims/items/tower_shield_trim_rainbow"
+	}
+}

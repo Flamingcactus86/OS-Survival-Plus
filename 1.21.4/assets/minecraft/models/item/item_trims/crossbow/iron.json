@@ -1,0 +1,7 @@
+{
+	"parent":"item/crossbow_overlay",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/crossbow_trim_iron"
+	}
+}

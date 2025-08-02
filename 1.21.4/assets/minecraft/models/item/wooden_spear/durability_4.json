@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_spear/durability_4",
+	"textures":{
+		"0" : "item/wooden_spear",
+		"particle" : "item/wooden_spear"
+	}
+}
