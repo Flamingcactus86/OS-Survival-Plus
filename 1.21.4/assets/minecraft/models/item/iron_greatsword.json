@@ -1,7 +1,0 @@
-{
-    "parent": "item/greatsword",
-    "textures": {
-        "0": "item/iron_greatsword",
-		"particle": "item/iron_greatsword"
-    }
-}
