@@ -1,0 +1,53 @@
+{
+	"pack" : {
+		"pack_format" : 46,
+		"description" : "OctoStar Survival + Resources by flamingcactus86",
+		"supported_formats" : [46,88],
+		"min_format" : 46,
+		"max_format" : 88
+	},
+	"overlays" : {
+		"entries" : [
+			{
+				"formats" : [46, 64],
+				"directory" : "1.21.4"
+			},
+			{
+				"formats" : [55, 64],
+				"directory" : "1.21.5"
+			},
+			{
+				"formats" : 64,
+				"directory" : "1.21.6"
+			},
+			{
+				"formats" : 64,
+				"directory" : "1.21.7"
+			},
+			{
+				"formats" : [64, 69],
+				"min_format" : 64,
+				"max_format" : 69,
+				"directory" : "1.21.9"
+			},
+			{
+				"formats" : 70,
+				"min_format" : 70,
+				"max_format" : 70,
+				"directory" : "1.21.11"
+			},
+			{
+				"formats" : [77, 84],
+				"min_format" : 77,
+				"max_format" : 84,
+				"directory" : "26.1"
+			},
+			{
+				"formats" : [85, 88],
+				"min_format" : 85,
+				"max_format" : 88,
+				"directory" : "26.2"
+			}
+		]
+	}
+}
