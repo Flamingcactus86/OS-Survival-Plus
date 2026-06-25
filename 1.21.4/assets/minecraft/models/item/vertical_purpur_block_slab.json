@@ -1,7 +1,0 @@
-{
-	"parent" : "item/vertical_slab",
-	"textures" : {
-		"0" : "block/purpur_block",
-		"particle" : "block/purpur_block"
-	}
-}

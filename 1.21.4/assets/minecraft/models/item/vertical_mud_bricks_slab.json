@@ -1,7 +1,0 @@
-{
-	"parent" : "item/vertical_slab",
-	"textures" : {
-		"0" : "block/mud_bricks",
-		"particle" : "block/mud_bricks"
-	}
-}

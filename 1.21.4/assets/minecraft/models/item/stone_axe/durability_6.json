@@ -1,7 +1,0 @@
-{
-	"parent":"item/handheld_axe/durability_6",
-	"textures":{
-		"0" : "item/stone_axe",
-		"particle" : "item/stone_axe"
-	}
-}

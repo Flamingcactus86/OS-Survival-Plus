@@ -1,7 +1,0 @@
-{
-	"parent":"item/generated",
-	"textures":{
-		"particle" : "item/stick",
-		"layer0" : "trims/items/leggings_trim_gold"
-	}
-}

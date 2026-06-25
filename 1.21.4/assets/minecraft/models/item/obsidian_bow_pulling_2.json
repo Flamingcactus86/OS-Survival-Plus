@@ -1,6 +1,0 @@
-{
-    "parent": "item/handheld_bow",
-    "textures": {
-        "layer0": "item/obsidian_bow_pulling_2"
-    }
-}
