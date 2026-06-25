@@ -1,0 +1,1040 @@
+{
+	"model" : {
+		"type": "minecraft:select",
+		"cases": [
+		  {
+			"model": {
+				"type" : "minecraft:composite",
+				"models" : [
+					{
+						"type" : "minecraft:select",
+						"index" : 1,
+						"property" : "minecraft:custom_model_data",
+						"cases" : [
+							{
+								"when" : "wooden",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/wooden"
+								}
+							},
+							{
+								"when" : "stone",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/stone"
+								}
+							},
+							{
+								"when" : "copper",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/copper"
+								}
+							},
+							{
+								"when" : "iron",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/iron"
+								}
+							},
+							{
+								"when" : "golden",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/golden"
+								}
+							},
+							{
+								"when" : "emerald",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/emerald"
+								}
+							},
+							{
+								"when" : "amethyst",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/amethyst"
+								}
+							},
+							{
+								"when" : "rose",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/rose"
+								}
+							},
+							{
+								"when" : "diamond",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/diamond"
+								}
+							},
+							{
+								"when" : "obsidian",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/obsidian"
+								}
+							},
+							{
+								"when" : "netherite",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/netherite"
+								}
+							},
+							{
+								"when" : "ruby",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/ruby"
+								}
+							},
+							{
+								"when" : "steel",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/steel"
+								}
+							},
+							{
+								"when" : "bronze",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/bronze"
+								}
+							},
+							{
+								"when" : "silver",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/silver"
+								}
+							},
+							{
+								"when" : "blaze",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/blaze"
+								}
+							},
+							{
+								"when" : "uranium",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/uranium"
+								}
+							},
+							{
+								"when" : "lapis",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/lapis"
+								}
+							},
+							{
+								"when" : "resin",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/resin"
+								}
+							},
+							{
+								"when" : "echo",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/echo"
+								}
+							},
+							{
+								"when" : "wither",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/blade_icon/wither"
+								}
+							}
+						],
+						"fallback" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/halberd/blade_icon/wooden"
+						}
+					},
+					{
+						"type" : "minecraft:select",
+						"property" : "minecraft:custom_model_data",
+						"cases" : [
+							{
+								"when" : "wooden",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/wooden"
+								}
+							},
+							{
+								"when" : "blaze",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/blaze"
+								}
+							},
+							{
+								"when" : "obsidian",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/obsidian"
+								}
+							},
+							{
+								"when" : "netherite",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/netherite"
+								}
+							},
+							{
+								"when" : "stone",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/stone"
+								}
+							},
+							{
+								"when" : "copper",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/copper"
+								}
+							},
+							{
+								"when" : "iron",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/iron"
+								}
+							},
+							{
+								"when" : "golden",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/gold"
+								}
+							},
+							{
+								"when" : "emerald",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/emerald"
+								}
+							},
+							{
+								"when" : "rose",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/rose"
+								}
+							},
+							{
+								"when" : "amethyst",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/amethyst"
+								}
+							},
+							{
+								"when" : "diamond",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/diamond"
+								}
+							},
+							{
+								"when" : "void",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/void"
+								}
+							},
+							{
+								"when" : "oak",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/oak"
+								}
+							},
+							{
+								"when" : "birch",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/birch"
+								}
+							},
+							{
+								"when" : "spruce",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/spruce"
+								}
+							},
+							{
+								"when" : "jungle",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/jungle"
+								}
+							},
+							{
+								"when" : "acacia",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/acacia"
+								}
+							},
+							{
+								"when" : "cherry",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/cherry"
+								}
+							},
+							{
+								"when" : "mangrove",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/mangrove"
+								}
+							},
+							{
+								"when" : "dark_oak",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/dark_oak"
+								}
+							},
+							{
+								"when" : "pale_oak",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/pale_oak"
+								}
+							},
+							{
+								"when" : "crimson",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/crimson"
+								}
+							},
+							{
+								"when" : "warped",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/warped"
+								}
+							},
+							{
+								"when" : "breeze",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/breeze"
+								}
+							},
+							{
+								"when" : "prismarine",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/prismarine"
+								}
+							},
+							{
+								"when" : "soot",
+								"model" : {
+									"type" : "minecraft:model",
+									"model" : "minecraft:item/halberd/handle_icon/soot"
+								}
+							}
+						],
+						"fallback" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/halberd/handle_icon/wooden"
+						}
+					},
+					{
+						"type": "minecraft:select",
+						"cases": [
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/iron"
+							},
+							"when": "minecraft:iron"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/redstone"
+							},
+							"when": "minecraft:redstone"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/emerald"
+							},
+							"when": "minecraft:emerald"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/gold"
+							},
+							"when": "minecraft:gold"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/obsidian"
+							},
+							"when": "ossurvivalplus:obsidian"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/copper"
+							},
+							"when": "minecraft:copper"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/resin"
+							},
+							"when": "minecraft:resin"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/netherite"
+							},
+							"when": "minecraft:netherite"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/amethyst"
+							},
+							"when": "minecraft:amethyst"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/quartz"
+							},
+							"when": "minecraft:quartz"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/diamond"
+							},
+							"when": "minecraft:diamond"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/lapis"
+							},
+							"when": "minecraft:lapis"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/oxidized_copper"
+							},
+							"when": "ossurvivalplus:oxidized_copper"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/raw_iron"
+							},
+							"when": "ossurvivalplus:raw_iron"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/echo"
+							},
+							"when": "ossurvivalplus:echo"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/breeze"
+							},
+							"when": "ossurvivalplus:breeze"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/rainbow"
+							},
+							"when": "ossurvivalplus:rainbow"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/void"
+							},
+							"when": "ossurvivalplus:void"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/pastel"
+							},
+							"when": "ossurvivalplus:pastel"
+						  },
+						  {
+							"model": {
+							  "type": "minecraft:model",
+							  "model": "minecraft:item/item_trims/halberd/icon/cocoa"
+							},
+							"when": "ossurvivalplus:cocoa"
+						  }
+						],
+						"fallback": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/empty"
+						},
+						"property": "minecraft:trim_material"
+					  }
+				]
+			},
+			"when": [
+			  "gui",
+			  "ground",
+			  "fixed",
+			  "on_shelf"
+			]
+		  }
+		],
+		"fallback": {
+			"type" : "minecraft:composite",
+			"models" : [
+				{
+					"type" : "minecraft:select",
+					"index" : 1,
+					"property" : "minecraft:custom_model_data",
+					"cases" : [
+						{
+							"when" : "wooden",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/wooden"
+							}
+						},
+						{
+							"when" : "stone",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/stone"
+							}
+						},
+						{
+							"when" : "copper",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/copper"
+							}
+						},
+						{
+							"when" : "iron",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/iron"
+							}
+						},
+						{
+							"when" : "golden",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/golden"
+							}
+						},
+						{
+							"when" : "emerald",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/emerald"
+							}
+						},
+						{
+							"when" : "amethyst",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/amethyst"
+							}
+						},
+						{
+							"when" : "rose",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/rose"
+							}
+						},
+						{
+							"when" : "diamond",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/diamond"
+							}
+						},
+						{
+							"when" : "obsidian",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/obsidian"
+							}
+						},
+						{
+							"when" : "netherite",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/netherite"
+							}
+						},
+						{
+							"when" : "ruby",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/ruby"
+							}
+						},
+						{
+							"when" : "steel",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/steel"
+							}
+						},
+						{
+							"when" : "bronze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/bronze"
+							}
+						},
+						{
+							"when" : "silver",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/silver"
+							}
+						},
+						{
+							"when" : "blaze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/blaze"
+							}
+						},
+						{
+							"when" : "uranium",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/uranium"
+							}
+						},
+						{
+							"when" : "lapis",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/lapis"
+							}
+						},
+						{
+							"when" : "resin",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/resin"
+							}
+						},
+						{
+							"when" : "echo",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/echo"
+							}
+						},
+						{
+							"when" : "wither",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/blade/wither"
+							}
+						}
+					],
+					"fallback" : {
+						"type" : "minecraft:model",
+						"model" : "minecraft:item/halberd/blade/wooden"
+					}
+				},
+				{
+					"type" : "minecraft:select",
+					"property" : "minecraft:custom_model_data",
+					"cases" : [
+						{
+							"when" : "wooden",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/wooden"
+							}
+						},
+						{
+							"when" : "blaze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/blaze"
+							}
+						},
+						{
+							"when" : "obsidian",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/obsidian"
+							}
+						},
+						{
+							"when" : "netherite",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/netherite"
+							}
+						},
+						{
+							"when" : "stone",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/stone"
+							}
+						},
+						{
+							"when" : "copper",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/copper"
+							}
+						},
+						{
+							"when" : "iron",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/iron"
+							}
+						},
+						{
+							"when" : "golden",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/gold"
+							}
+						},
+						{
+							"when" : "emerald",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/emerald"
+							}
+						},
+						{
+							"when" : "rose",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/rose"
+							}
+						},
+						{
+							"when" : "amethyst",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/amethyst"
+							}
+						},
+						{
+							"when" : "diamond",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/diamond"
+							}
+						},
+						{
+							"when" : "void",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/void"
+							}
+						},
+						{
+							"when" : "oak",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/oak"
+							}
+						},
+						{
+							"when" : "birch",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/birch"
+							}
+						},
+						{
+							"when" : "spruce",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/spruce"
+							}
+						},
+						{
+							"when" : "jungle",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/jungle"
+							}
+						},
+						{
+							"when" : "acacia",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/acacia"
+							}
+						},
+						{
+							"when" : "cherry",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/cherry"
+							}
+						},
+						{
+							"when" : "mangrove",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/mangrove"
+							}
+						},
+						{
+							"when" : "dark_oak",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/dark_oak"
+							}
+						},
+						{
+							"when" : "pale_oak",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/pale_oak"
+							}
+						},
+						{
+							"when" : "crimson",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/crimson"
+							}
+						},
+						{
+							"when" : "warped",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/warped"
+							}
+						},
+						{
+							"when" : "breeze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/breeze"
+							}
+						},
+						{
+							"when" : "prismarine",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/prismarine"
+							}
+						},
+						{
+							"when" : "soot",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/halberd/handle/soot"
+							}
+						}
+					],
+					"fallback" : {
+						"type" : "minecraft:model",
+						"model" : "minecraft:item/halberd/handle/wooden"
+					}
+				},
+				{
+					"type": "minecraft:select",
+					"cases": [
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/iron"
+						},
+						"when": "minecraft:iron"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/redstone"
+						},
+						"when": "minecraft:redstone"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/emerald"
+						},
+						"when": "minecraft:emerald"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/gold"
+						},
+						"when": "minecraft:gold"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/obsidian"
+						},
+						"when": "ossurvivalplus:obsidian"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/copper"
+						},
+						"when": "minecraft:copper"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/resin"
+						},
+						"when": "minecraft:resin"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/netherite"
+						},
+						"when": "minecraft:netherite"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/amethyst"
+						},
+						"when": "minecraft:amethyst"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/quartz"
+						},
+						"when": "minecraft:quartz"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/diamond"
+						},
+						"when": "minecraft:diamond"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/lapis"
+						},
+						"when": "minecraft:lapis"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/oxidized_copper"
+						},
+						"when": "ossurvivalplus:oxidized_copper"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/raw_iron"
+						},
+						"when": "ossurvivalplus:raw_iron"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/echo"
+						},
+						"when": "ossurvivalplus:echo"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/breeze"
+						},
+						"when": "ossurvivalplus:breeze"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/rainbow"
+						},
+						"when": "ossurvivalplus:rainbow"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/void"
+						},
+						"when": "ossurvivalplus:void"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/pastel"
+						},
+						"when": "ossurvivalplus:pastel"
+					  },
+					  {
+						"model": {
+						  "type": "minecraft:model",
+						  "model": "minecraft:item/item_trims/halberd/in_hand/cocoa"
+						},
+						"when": "ossurvivalplus:cocoa"
+					  }
+					],
+					"fallback": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/empty"
+					},
+					"property": "minecraft:trim_material"
+				  }
+			]
+		},
+		"property": "minecraft:display_context"
+	}
+}

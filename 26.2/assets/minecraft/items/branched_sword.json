@@ -1,0 +1,514 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type" : "minecraft:select",
+				"index" : 1,
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/wooden"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/golden"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/emerald"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/amethyst"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/rose"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/diamond"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/blade/netherite"
+						}
+					},
+						{
+							"when" : "ruby",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/ruby"
+							}
+						},
+						{
+							"when" : "steel",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/steel"
+							}
+						},
+						{
+							"when" : "bronze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/bronze"
+							}
+						},
+						{
+							"when" : "silver",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/silver"
+							}
+						},
+						{
+							"when" : "blaze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/blaze"
+							}
+						},
+						{
+							"when" : "uranium",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/uranium"
+							}
+						},
+						{
+							"when" : "lapis",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/lapis"
+							}
+						},
+						{
+							"when" : "resin",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/resin"
+							}
+						},
+						{
+							"when" : "echo",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/echo"
+							}
+						},
+						{
+							"when" : "wither",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/branched_sword/blade/wither"
+							}
+						}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/branched_sword/blade/wooden"
+				}
+			},
+			{
+				"type" : "minecraft:select",
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/wooden"
+						}
+					},
+					{
+						"when" : "blaze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/blaze"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/netherite"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/gold"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/emerald"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/rose"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/amethyst"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/diamond"
+						}
+					},
+					{
+						"when" : "void",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/void"
+						}
+					},
+					{
+						"when" : "oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/oak"
+						}
+					},
+					{
+						"when" : "birch",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/birch"
+						}
+					},
+					{
+						"when" : "spruce",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/spruce"
+						}
+					},
+					{
+						"when" : "jungle",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/jungle"
+						}
+					},
+					{
+						"when" : "acacia",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/acacia"
+						}
+					},
+					{
+						"when" : "cherry",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/cherry"
+						}
+					},
+					{
+						"when" : "mangrove",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/mangrove"
+						}
+					},
+					{
+						"when" : "dark_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/dark_oak"
+						}
+					},
+					{
+						"when" : "pale_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/pale_oak"
+						}
+					},
+					{
+						"when" : "crimson",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/crimson"
+						}
+					},
+					{
+						"when" : "warped",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/warped"
+						}
+					},
+					{
+						"when" : "breeze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/breeze"
+						}
+					},
+					{
+						"when" : "soot",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/soot"
+						}
+					},
+					{
+						"when" : "prismarine",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/branched_sword/handle/prismarine"
+						}
+					}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/branched_sword/handle/wooden"
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"cases": [
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/iron"
+					},
+					"when": "minecraft:iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/redstone"
+					},
+					"when": "minecraft:redstone"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/emerald"
+					},
+					"when": "minecraft:emerald"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/gold"
+					},
+					"when": "minecraft:gold"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/obsidian"
+					},
+					"when": "ossurvivalplus:obsidian"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/copper"
+					},
+					"when": "minecraft:copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/resin"
+					},
+					"when": "minecraft:resin"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/netherite"
+					},
+					"when": "minecraft:netherite"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/amethyst"
+					},
+					"when": "minecraft:amethyst"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/quartz"
+					},
+					"when": "minecraft:quartz"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/diamond"
+					},
+					"when": "minecraft:diamond"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/lapis"
+					},
+					"when": "minecraft:lapis"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/oxidized_copper"
+					},
+					"when": "ossurvivalplus:oxidized_copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/raw_iron"
+					},
+					"when": "ossurvivalplus:raw_iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/echo"
+					},
+					"when": "ossurvivalplus:echo"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/breeze"
+					},
+					"when": "ossurvivalplus:breeze"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/rainbow"
+					},
+					"when": "ossurvivalplus:rainbow"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/void"
+					},
+					"when": "ossurvivalplus:void"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/pastel"
+					},
+					"when": "ossurvivalplus:pastel"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/branched_sword/cocoa"
+					},
+					"when": "ossurvivalplus:cocoa"
+				  }
+				],
+				"fallback": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:trim_material"
+			  }
+		]
+	}
+}

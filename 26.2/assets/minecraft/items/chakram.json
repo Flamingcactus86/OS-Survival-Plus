@@ -1,0 +1,514 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type" : "minecraft:select",
+				"index" : 1,
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/wooden"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/golden"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/emerald"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/amethyst"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/rose"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/diamond"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/blade/netherite"
+						}
+					},
+						{
+							"when" : "ruby",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/ruby"
+							}
+						},
+						{
+							"when" : "steel",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/steel"
+							}
+						},
+						{
+							"when" : "bronze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/bronze"
+							}
+						},
+						{
+							"when" : "silver",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/silver"
+							}
+						},
+						{
+							"when" : "blaze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/blaze"
+							}
+						},
+						{
+							"when" : "uranium",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/uranium"
+							}
+						},
+						{
+							"when" : "lapis",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/lapis"
+							}
+						},
+						{
+							"when" : "resin",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/resin"
+							}
+						},
+						{
+							"when" : "echo",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/echo"
+							}
+						},
+						{
+							"when" : "wither",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/chakram/blade/wither"
+							}
+						}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/chakram/blade/wooden"
+				}
+			},
+			{
+				"type" : "minecraft:select",
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/wooden"
+						}
+					},
+					{
+						"when" : "blaze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/blaze"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/netherite"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/gold"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/emerald"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/rose"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/amethyst"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/diamond"
+						}
+					},
+					{
+						"when" : "void",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/void"
+						}
+					},
+					{
+						"when" : "oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/oak"
+						}
+					},
+					{
+						"when" : "birch",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/birch"
+						}
+					},
+					{
+						"when" : "spruce",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/spruce"
+						}
+					},
+					{
+						"when" : "jungle",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/jungle"
+						}
+					},
+					{
+						"when" : "acacia",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/acacia"
+						}
+					},
+					{
+						"when" : "cherry",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/cherry"
+						}
+					},
+					{
+						"when" : "mangrove",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/mangrove"
+						}
+					},
+					{
+						"when" : "dark_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/dark_oak"
+						}
+					},
+					{
+						"when" : "pale_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/pale_oak"
+						}
+					},
+					{
+						"when" : "crimson",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/crimson"
+						}
+					},
+					{
+						"when" : "warped",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/warped"
+						}
+					},
+					{
+						"when" : "breeze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/breeze"
+						}
+					},
+					{
+						"when" : "soot",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/soot"
+						}
+					},
+					{
+						"when" : "prismarine",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/chakram/handle/prismarine"
+						}
+					}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/chakram/handle/wooden"
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"cases": [
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/iron"
+					},
+					"when": "minecraft:iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/redstone"
+					},
+					"when": "minecraft:redstone"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/emerald"
+					},
+					"when": "minecraft:emerald"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/gold"
+					},
+					"when": "minecraft:gold"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/obsidian"
+					},
+					"when": "ossurvivalplus:obsidian"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/copper"
+					},
+					"when": "minecraft:copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/resin"
+					},
+					"when": "minecraft:resin"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/netherite"
+					},
+					"when": "minecraft:netherite"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/amethyst"
+					},
+					"when": "minecraft:amethyst"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/quartz"
+					},
+					"when": "minecraft:quartz"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/diamond"
+					},
+					"when": "minecraft:diamond"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/lapis"
+					},
+					"when": "minecraft:lapis"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/oxidized_copper"
+					},
+					"when": "ossurvivalplus:oxidized_copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/raw_iron"
+					},
+					"when": "ossurvivalplus:raw_iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/echo"
+					},
+					"when": "ossurvivalplus:echo"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/breeze"
+					},
+					"when": "ossurvivalplus:breeze"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/rainbow"
+					},
+					"when": "ossurvivalplus:rainbow"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/void"
+					},
+					"when": "ossurvivalplus:void"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/pastel"
+					},
+					"when": "ossurvivalplus:pastel"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/chakram/cocoa"
+					},
+					"when": "ossurvivalplus:cocoa"
+				  }
+				],
+				"fallback": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:trim_material"
+			  }
+		]
+	}
+}

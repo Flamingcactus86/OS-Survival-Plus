@@ -1,0 +1,1537 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type": "minecraft:range_dispatch",
+				"property": "minecraft:damage",
+				"entries": [
+					{
+						"model": {
+							"type" : "minecraft:select",
+							"property" : "minecraft:custom_model_data",
+							"cases" : [
+								{
+									"when" : "wooden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/wooden/1"
+									}
+								},
+								{
+									"when" : "blaze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/blaze/1"
+									}
+								},
+								{
+									"when" : "obsidian",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/obsidian/1"
+									}
+								},
+								{
+									"when" : "netherite",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/netherite/1"
+									}
+								},
+								{
+									"when" : "stone",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/stone/1"
+									}
+								},
+								{
+									"when" : "copper",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/copper/1"
+									}
+								},
+								{
+									"when" : "iron",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/iron/1"
+									}
+								},
+								{
+									"when" : "golden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/gold/1"
+									}
+								},
+								{
+									"when" : "emerald",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/emerald/1"
+									}
+								},
+								{
+									"when" : "rose",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/rose/1"
+									}
+								},
+								{
+									"when" : "amethyst",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/amethyst/1"
+									}
+								},
+								{
+									"when" : "diamond",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/diamond/1"
+									}
+								},
+								{
+									"when" : "void",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/void/1"
+									}
+								},
+								{
+									"when" : "oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/oak/1"
+									}
+								},
+								{
+									"when" : "birch",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/birch/1"
+									}
+								},
+								{
+									"when" : "spruce",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/spruce/1"
+									}
+								},
+								{
+									"when" : "jungle",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/jungle/1"
+									}
+								},
+								{
+									"when" : "acacia",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/acacia/1"
+									}
+								},
+								{
+									"when" : "cherry",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/cherry/1"
+									}
+								},
+								{
+									"when" : "mangrove",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/mangrove/1"
+									}
+								},
+								{
+									"when" : "dark_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/dark_oak/1"
+									}
+								},
+								{
+									"when" : "pale_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/pale_oak/1"
+									}
+								},
+								{
+									"when" : "crimson",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/crimson/1"
+									}
+								},
+								{
+									"when" : "warped",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/warped/1"
+									}
+								},
+								{
+									"when" : "breeze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/breeze/1"
+									}
+								},
+								{
+									"when" : "soot",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/soot/1"
+									}
+								},
+								{
+									"when" : "prismarine",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/prismarine/1"
+									}
+								}
+							],
+							"fallback" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/boomerang/handle/wooden/1"
+							}
+						},
+						"threshold": 0.0
+					},
+					{
+						"model": {
+							"type" : "minecraft:select",
+							"property" : "minecraft:custom_model_data",
+							"cases" : [
+								{
+									"when" : "wooden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/wooden/2"
+									}
+								},
+								{
+									"when" : "blaze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/blaze/2"
+									}
+								},
+								{
+									"when" : "obsidian",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/obsidian/2"
+									}
+								},
+								{
+									"when" : "netherite",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/netherite/2"
+									}
+								},
+								{
+									"when" : "stone",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/stone/2"
+									}
+								},
+								{
+									"when" : "copper",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/copper/2"
+									}
+								},
+								{
+									"when" : "iron",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/iron/2"
+									}
+								},
+								{
+									"when" : "golden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/gold/2"
+									}
+								},
+								{
+									"when" : "emerald",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/emerald/2"
+									}
+								},
+								{
+									"when" : "rose",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/rose/2"
+									}
+								},
+								{
+									"when" : "amethyst",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/amethyst/2"
+									}
+								},
+								{
+									"when" : "diamond",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/diamond/2"
+									}
+								},
+								{
+									"when" : "void",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/void/2"
+									}
+								},
+								{
+									"when" : "oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/oak/2"
+									}
+								},
+								{
+									"when" : "birch",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/birch/2"
+									}
+								},
+								{
+									"when" : "spruce",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/spruce/2"
+									}
+								},
+								{
+									"when" : "jungle",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/jungle/2"
+									}
+								},
+								{
+									"when" : "acacia",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/acacia/2"
+									}
+								},
+								{
+									"when" : "cherry",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/cherry/2"
+									}
+								},
+								{
+									"when" : "mangrove",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/mangrove/2"
+									}
+								},
+								{
+									"when" : "dark_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/dark_oak/2"
+									}
+								},
+								{
+									"when" : "pale_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/pale_oak/2"
+									}
+								},
+								{
+									"when" : "crimson",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/crimson/2"
+									}
+								},
+								{
+									"when" : "warped",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/warped/2"
+									}
+								},
+								{
+									"when" : "breeze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/breeze/2"
+									}
+								},
+								{
+									"when" : "soot",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/soot/2"
+									}
+								},
+								{
+									"when" : "prismarine",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/prismarine/2"
+									}
+								}
+							],
+							"fallback" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/boomerang/handle/wooden/2"
+							}
+						},
+						"threshold": 0.1
+					},
+					{
+						"model": {
+							"type" : "minecraft:select",
+							"property" : "minecraft:custom_model_data",
+							"cases" : [
+								{
+									"when" : "wooden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/wooden/3"
+									}
+								},
+								{
+									"when" : "blaze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/blaze/3"
+									}
+								},
+								{
+									"when" : "obsidian",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/obsidian/3"
+									}
+								},
+								{
+									"when" : "netherite",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/netherite/3"
+									}
+								},
+								{
+									"when" : "stone",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/stone/3"
+									}
+								},
+								{
+									"when" : "copper",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/copper/3"
+									}
+								},
+								{
+									"when" : "iron",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/iron/3"
+									}
+								},
+								{
+									"when" : "golden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/gold/3"
+									}
+								},
+								{
+									"when" : "emerald",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/emerald/3"
+									}
+								},
+								{
+									"when" : "rose",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/rose/3"
+									}
+								},
+								{
+									"when" : "amethyst",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/amethyst/3"
+									}
+								},
+								{
+									"when" : "diamond",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/diamond/3"
+									}
+								},
+								{
+									"when" : "void",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/void/3"
+									}
+								},
+								{
+									"when" : "oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/oak/3"
+									}
+								},
+								{
+									"when" : "birch",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/birch/3"
+									}
+								},
+								{
+									"when" : "spruce",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/spruce/3"
+									}
+								},
+								{
+									"when" : "jungle",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/jungle/3"
+									}
+								},
+								{
+									"when" : "acacia",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/acacia/3"
+									}
+								},
+								{
+									"when" : "cherry",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/cherry/3"
+									}
+								},
+								{
+									"when" : "mangrove",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/mangrove/3"
+									}
+								},
+								{
+									"when" : "dark_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/dark_oak/3"
+									}
+								},
+								{
+									"when" : "pale_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/pale_oak/3"
+									}
+								},
+								{
+									"when" : "crimson",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/crimson/3"
+									}
+								},
+								{
+									"when" : "warped",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/warped/3"
+									}
+								},
+								{
+									"when" : "breeze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/breeze/3"
+									}
+								},
+								{
+									"when" : "soot",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/soot/3"
+									}
+								},
+								{
+									"when" : "prismarine",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/prismarine/3"
+									}
+								}
+							],
+							"fallback" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/boomerang/handle/wooden/3"
+							}
+						},
+						"threshold": 0.3
+					},
+					{
+						"model": {
+							"type" : "minecraft:select",
+							"property" : "minecraft:custom_model_data",
+							"cases" : [
+								{
+									"when" : "wooden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/wooden/4"
+									}
+								},
+								{
+									"when" : "blaze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/blaze/4"
+									}
+								},
+								{
+									"when" : "obsidian",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/obsidian/4"
+									}
+								},
+								{
+									"when" : "netherite",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/netherite/4"
+									}
+								},
+								{
+									"when" : "stone",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/stone/4"
+									}
+								},
+								{
+									"when" : "copper",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/copper/4"
+									}
+								},
+								{
+									"when" : "iron",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/iron/4"
+									}
+								},
+								{
+									"when" : "golden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/gold/4"
+									}
+								},
+								{
+									"when" : "emerald",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/emerald/4"
+									}
+								},
+								{
+									"when" : "rose",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/rose/4"
+									}
+								},
+								{
+									"when" : "amethyst",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/amethyst/4"
+									}
+								},
+								{
+									"when" : "diamond",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/diamond/4"
+									}
+								},
+								{
+									"when" : "void",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/void/4"
+									}
+								},
+								{
+									"when" : "oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/oak/4"
+									}
+								},
+								{
+									"when" : "birch",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/birch/4"
+									}
+								},
+								{
+									"when" : "spruce",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/spruce/4"
+									}
+								},
+								{
+									"when" : "jungle",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/jungle/4"
+									}
+								},
+								{
+									"when" : "acacia",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/acacia/4"
+									}
+								},
+								{
+									"when" : "cherry",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/cherry/4"
+									}
+								},
+								{
+									"when" : "mangrove",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/mangrove/4"
+									}
+								},
+								{
+									"when" : "dark_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/dark_oak/4"
+									}
+								},
+								{
+									"when" : "pale_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/pale_oak/4"
+									}
+								},
+								{
+									"when" : "crimson",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/crimson/4"
+									}
+								},
+								{
+									"when" : "warped",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/warped/4"
+									}
+								},
+								{
+									"when" : "breeze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/breeze/4"
+									}
+								},
+								{
+									"when" : "soot",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/soot/4"
+									}
+								},
+								{
+									"when" : "prismarine",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/prismarine/4"
+									}
+								}
+							],
+							"fallback" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/boomerang/handle/wooden/4"
+							}
+						},
+						"threshold": 0.5
+					},
+					{
+						"model": {
+							"type" : "minecraft:select",
+							"property" : "minecraft:custom_model_data",
+							"cases" : [
+								{
+									"when" : "wooden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/wooden/5"
+									}
+								},
+								{
+									"when" : "blaze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/blaze/5"
+									}
+								},
+								{
+									"when" : "obsidian",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/obsidian/5"
+									}
+								},
+								{
+									"when" : "netherite",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/netherite/5"
+									}
+								},
+								{
+									"when" : "stone",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/stone/5"
+									}
+								},
+								{
+									"when" : "copper",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/copper/5"
+									}
+								},
+								{
+									"when" : "iron",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/iron/5"
+									}
+								},
+								{
+									"when" : "golden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/gold/5"
+									}
+								},
+								{
+									"when" : "emerald",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/emerald/5"
+									}
+								},
+								{
+									"when" : "rose",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/rose/5"
+									}
+								},
+								{
+									"when" : "amethyst",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/amethyst/5"
+									}
+								},
+								{
+									"when" : "diamond",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/diamond/5"
+									}
+								},
+								{
+									"when" : "void",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/void/5"
+									}
+								},
+								{
+									"when" : "oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/oak/5"
+									}
+								},
+								{
+									"when" : "birch",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/birch/5"
+									}
+								},
+								{
+									"when" : "spruce",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/spruce/5"
+									}
+								},
+								{
+									"when" : "jungle",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/jungle/5"
+									}
+								},
+								{
+									"when" : "acacia",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/acacia/5"
+									}
+								},
+								{
+									"when" : "cherry",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/cherry/5"
+									}
+								},
+								{
+									"when" : "mangrove",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/mangrove/5"
+									}
+								},
+								{
+									"when" : "dark_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/dark_oak/5"
+									}
+								},
+								{
+									"when" : "pale_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/pale_oak/5"
+									}
+								},
+								{
+									"when" : "crimson",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/crimson/5"
+									}
+								},
+								{
+									"when" : "warped",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/warped/5"
+									}
+								},
+								{
+									"when" : "breeze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/breeze/5"
+									}
+								},
+								{
+									"when" : "soot",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/soot/5"
+									}
+								},
+								{
+									"when" : "prismarine",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/prismarine/5"
+									}
+								}
+							],
+							"fallback" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/boomerang/handle/wooden/5"
+							}
+						},
+						"threshold": 0.7
+					},
+					{
+						"model": {
+							"type" : "minecraft:select",
+							"property" : "minecraft:custom_model_data",
+							"cases" : [
+								{
+									"when" : "wooden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/wooden/6"
+									}
+								},
+								{
+									"when" : "blaze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/blaze/6"
+									}
+								},
+								{
+									"when" : "obsidian",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/obsidian/6"
+									}
+								},
+								{
+									"when" : "netherite",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/netherite/6"
+									}
+								},
+								{
+									"when" : "stone",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/stone/6"
+									}
+								},
+								{
+									"when" : "copper",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/copper/6"
+									}
+								},
+								{
+									"when" : "iron",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/iron/6"
+									}
+								},
+								{
+									"when" : "golden",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/gold/6"
+									}
+								},
+								{
+									"when" : "emerald",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/emerald/6"
+									}
+								},
+								{
+									"when" : "rose",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/rose/6"
+									}
+								},
+								{
+									"when" : "amethyst",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/amethyst/6"
+									}
+								},
+								{
+									"when" : "diamond",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/diamond/6"
+									}
+								},
+								{
+									"when" : "void",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/void/6"
+									}
+								},
+								{
+									"when" : "oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/oak/6"
+									}
+								},
+								{
+									"when" : "birch",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/birch/6"
+									}
+								},
+								{
+									"when" : "spruce",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/spruce/6"
+									}
+								},
+								{
+									"when" : "jungle",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/jungle/6"
+									}
+								},
+								{
+									"when" : "acacia",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/acacia/6"
+									}
+								},
+								{
+									"when" : "cherry",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/cherry/6"
+									}
+								},
+								{
+									"when" : "mangrove",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/mangrove/6"
+									}
+								},
+								{
+									"when" : "dark_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/dark_oak/6"
+									}
+								},
+								{
+									"when" : "pale_oak",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/pale_oak/6"
+									}
+								},
+								{
+									"when" : "crimson",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/crimson/6"
+									}
+								},
+								{
+									"when" : "warped",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/warped/6"
+									}
+								},
+								{
+									"when" : "breeze",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/breeze/6"
+									}
+								},
+								{
+									"when" : "soot",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/soot/6"
+									}
+								},
+								{
+									"when" : "prismarine",
+									"model" : {
+										"type" : "minecraft:model",
+										"model" : "minecraft:item/boomerang/handle/prismarine/6"
+									}
+								}
+							],
+							"fallback" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/boomerang/handle/wooden/6"
+							}
+						},
+						"threshold": 0.9
+					}
+				],
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/boomerang/handle/wooden/1"
+				}
+			},
+			{
+				"type" : "minecraft:select",
+				"index" : 1,
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/wooden"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/gold"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/emerald"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/amethyst"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/rose"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/diamond"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/netherite"
+						}
+					},
+					{
+						"when" : "ruby",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/ruby"
+						}
+					},
+					{
+						"when" : "steel",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/steel"
+						}
+					},
+					{
+						"when" : "bronze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/bronze"
+						}
+					},
+					{
+						"when" : "silver",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/silver"
+						}
+					},
+					{
+						"when" : "blaze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/blaze"
+						}
+					},
+					{
+						"when" : "uranium",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/uranium"
+						}
+					},
+					{
+						"when" : "lapis",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/lapis"
+						}
+					},
+					{
+						"when" : "resin",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/resin"
+						}
+					},
+					{
+						"when" : "echo",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/echo"
+						}
+					},
+					{
+						"when" : "wither",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/boomerang/gem/wither"
+						}
+					}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/boomerang/gem/wooden"
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"cases": [
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/iron"
+					},
+					"when": "minecraft:iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/redstone"
+					},
+					"when": "minecraft:redstone"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/emerald"
+					},
+					"when": "minecraft:emerald"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/gold"
+					},
+					"when": "minecraft:gold"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/obsidian"
+					},
+					"when": "ossurvivalplus:obsidian"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/copper"
+					},
+					"when": "minecraft:copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/resin"
+					},
+					"when": "minecraft:resin"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/netherite"
+					},
+					"when": "minecraft:netherite"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/amethyst"
+					},
+					"when": "minecraft:amethyst"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/quartz"
+					},
+					"when": "minecraft:quartz"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/diamond"
+					},
+					"when": "minecraft:diamond"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/lapis"
+					},
+					"when": "minecraft:lapis"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/oxidized_copper"
+					},
+					"when": "ossurvivalplus:oxidized_copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/raw_iron"
+					},
+					"when": "ossurvivalplus:raw_iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/echo"
+					},
+					"when": "ossurvivalplus:echo"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/breeze"
+					},
+					"when": "ossurvivalplus:breeze"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/rainbow"
+					},
+					"when": "ossurvivalplus:rainbow"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/void"
+					},
+					"when": "ossurvivalplus:void"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/pastel"
+					},
+					"when": "ossurvivalplus:pastel"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/boomerang/cocoa"
+					},
+					"when": "ossurvivalplus:cocoa"
+				  }
+				],
+				"fallback": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:trim_material"
+			  }
+		]
+	}
+}

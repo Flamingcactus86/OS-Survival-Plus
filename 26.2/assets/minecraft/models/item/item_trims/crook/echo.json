@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_rod",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/crook_trim_echo"
+	}
+}

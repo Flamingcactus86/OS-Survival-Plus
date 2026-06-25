@@ -1,0 +1,7 @@
+{
+	"parent":"item/item_trims/handheld_parent",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/khopesh_trim_breeze"
+	}
+}

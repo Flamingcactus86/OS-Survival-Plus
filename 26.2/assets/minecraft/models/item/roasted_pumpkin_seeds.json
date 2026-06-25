@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/roasted_pumpkin_seeds",
+		"particle": "item/roasted_pumpkin_seeds"
+    }
+}

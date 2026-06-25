@@ -1,0 +1,7 @@
+{
+	"parent":"item/item_trims/scythe/parent",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/scythe_trim_obsidian"
+	}
+}

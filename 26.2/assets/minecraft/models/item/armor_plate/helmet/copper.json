@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor/helmet/plate_copper",
+		"particle": "item/armor/helmet/plate_copper"
+    }
+}

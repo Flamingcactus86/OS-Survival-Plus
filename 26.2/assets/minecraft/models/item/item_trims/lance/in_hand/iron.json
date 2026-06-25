@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_lance",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/lance_trim_iron"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor/horse_iron",
+		"particle": "item/armor/horse_iron"
+    }
+}

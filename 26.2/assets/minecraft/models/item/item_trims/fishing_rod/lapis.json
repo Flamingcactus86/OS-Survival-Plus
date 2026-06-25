@@ -1,0 +1,7 @@
+{
+	"parent":"item/item_trims/fishing_rod/parent",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/fishing_rod_trim_lapis"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld_shield",
+	"textures": {
+		"layer0": "item/shield/frame_netherite",
+		"particle": "item/shield/frame_netherite"
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/spear/blade_icon/5_iron"
+    }
+}

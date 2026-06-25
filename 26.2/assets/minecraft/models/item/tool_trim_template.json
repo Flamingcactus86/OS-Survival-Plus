@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/tool_trim_template",
+		"particle": "item/tool_trim_template"
+    }
+}

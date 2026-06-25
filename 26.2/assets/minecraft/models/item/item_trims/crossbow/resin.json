@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_crossbow",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/crossbow_trim_resin"
+	}
+}

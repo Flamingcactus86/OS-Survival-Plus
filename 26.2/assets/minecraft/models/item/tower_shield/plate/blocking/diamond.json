@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld_tower_shield_blocking",
+	"textures": {
+		"layer0": "item/tower_shield/plate_diamond",
+		"particle": "item/tower_shield/plate_diamond"
+	}
+}

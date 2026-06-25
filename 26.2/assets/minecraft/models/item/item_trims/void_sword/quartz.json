@@ -1,0 +1,6 @@
+{
+	"parent":"item/void_sword",
+	"textures":{
+		"layer0" : "trims/items/void_sword_trim_quartz"
+	}
+}

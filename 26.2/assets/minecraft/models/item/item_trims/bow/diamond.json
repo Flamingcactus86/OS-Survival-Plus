@@ -1,0 +1,7 @@
+{
+	"parent":"item/item_trims/bow/base",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/bow_trim_diamond"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/fish/emerald_orefish",
+		"particle": "item/fish/emerald_orefish"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/golden_egg",
+		"particle": "item/golden_egg"
+    }
+}

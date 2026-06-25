@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_harpoon",
+  "textures": {
+    "layer0": "minecraft:item/harpoon/string/pulling_2"
+  }
+}

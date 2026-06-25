@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/flamberge_trim_netherite"
+	}
+}

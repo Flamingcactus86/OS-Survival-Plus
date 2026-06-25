@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_crossbow",
+  "textures": {
+    "layer0": "minecraft:item/crossbow/ammo/firework"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer1": "minecraft:item/armadillo_carapace",
+    "layer0": "minecraft:item/armadillo_carapace_overlay"
+  }
+}

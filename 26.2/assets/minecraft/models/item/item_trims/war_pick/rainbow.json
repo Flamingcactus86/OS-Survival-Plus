@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/war_pick_trim_rainbow"
+	}
+}

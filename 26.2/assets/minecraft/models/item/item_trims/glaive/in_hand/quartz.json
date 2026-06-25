@@ -1,0 +1,7 @@
+{
+	"parent":"item/spear_in_hand",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/glaive_trim_quartz"
+	}
+}

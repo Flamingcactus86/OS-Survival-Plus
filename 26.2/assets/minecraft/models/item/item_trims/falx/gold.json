@@ -1,0 +1,7 @@
+{
+	"parent":"item/falx_blade",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/falx_trim_gold"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"layers":{
+		"humanoid":[
+			{
+				"texture":"minecraft:war/rose"
+			}
+		],
+		"humanoid_leggings":[
+			{
+				"texture":"minecraft:war/rose"
+			}
+		]
+	}
+}

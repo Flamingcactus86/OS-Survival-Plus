@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor/boots/war_gold",
+		"particle": "item/armor/boots/war_gold"
+    }
+}

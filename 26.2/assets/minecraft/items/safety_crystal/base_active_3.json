@@ -1,0 +1,6 @@
+{
+	"model" : {
+		"type": "minecraft:model",
+		"model": "minecraft:item/safety_crystal/base_active_3"
+	}
+}

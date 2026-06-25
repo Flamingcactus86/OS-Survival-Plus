@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_shield",
+    "textures": {
+        "layer0": "item/shield/frame_cherry"
+    }
+}

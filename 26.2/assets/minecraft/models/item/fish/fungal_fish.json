@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/fish/mushroom_fish",
+		"particle": "item/fish/mushroom_fish"
+    }
+}

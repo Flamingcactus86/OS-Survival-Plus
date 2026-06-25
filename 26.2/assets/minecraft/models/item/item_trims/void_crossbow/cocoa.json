@@ -1,0 +1,6 @@
+{
+	"parent":"item/void_crossbow",
+	"textures":{
+		"layer0" : "trims/items/void_crossbow_trim_cocoa"
+	}
+}

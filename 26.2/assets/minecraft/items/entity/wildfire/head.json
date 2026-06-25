@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/entity/wildfire/head",
+    "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": 0
+      }
+    ]
+  }
+}

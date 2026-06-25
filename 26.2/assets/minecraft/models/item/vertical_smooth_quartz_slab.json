@@ -1,0 +1,7 @@
+{
+	"parent" : "item/vertical_slab",
+	"textures" : {
+		"0" : "block/quartz_block_bottom",
+		"particle" : "block/quartz_block_bottom"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent":"item/generated",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/boots_trim_iron"
+	}
+}

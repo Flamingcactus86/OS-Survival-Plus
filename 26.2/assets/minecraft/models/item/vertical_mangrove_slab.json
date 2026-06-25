@@ -1,0 +1,7 @@
+{
+	"parent" : "item/vertical_slab",
+	"textures" : {
+		"0" : "block/mangrove_planks",
+		"particle" : "block/mangrove_planks"
+	}
+}

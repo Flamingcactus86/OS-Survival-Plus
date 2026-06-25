@@ -1,0 +1,7 @@
+{
+	"parent" : "item/vertical_slab",
+	"textures" : {
+		"0" : "block/sandstone_bottom",
+		"particle" : "block/sandstone_bottom"
+	}
+}

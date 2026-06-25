@@ -1,0 +1,7 @@
+{
+	"parent":"item/item_trims/handheld_parent",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/sword_trim_lapis"
+	}
+}
