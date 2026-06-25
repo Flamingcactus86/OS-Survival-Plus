@@ -1,0 +1,1189 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type" : "minecraft:select",
+				"index" : 1,
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/wooden/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/wooden/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/wooden/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/wooden/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/stone/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/stone/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/stone/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/stone/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/copper/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/copper/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/copper/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/copper/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/iron/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/iron/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/iron/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/iron/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/golden/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/golden/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/golden/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/golden/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/emerald/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/emerald/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/emerald/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/emerald/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/amethyst/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/amethyst/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/amethyst/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/amethyst/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/rose/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/rose/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/rose/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/rose/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/diamond/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/diamond/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/diamond/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/diamond/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/obsidian/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/obsidian/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/obsidian/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/obsidian/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/netherite/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/netherite/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/netherite/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/netherite/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "ruby",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/ruby/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/ruby/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/ruby/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/ruby/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "steel",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/steel/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/steel/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/steel/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/steel/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "bronze",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/bronze/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/bronze/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/bronze/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/bronze/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "silver",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/silver/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/silver/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/silver/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/silver/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "blaze",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/blaze/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/blaze/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/blaze/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/blaze/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "uranium",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/uranium/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/uranium/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/uranium/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/uranium/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "lapis",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/lapis/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/lapis/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/lapis/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/lapis/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "resin",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/resin/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/resin/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/resin/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/resin/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "echo",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/echo/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/echo/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/echo/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/echo/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					},
+					{
+						"when" : "wither",
+						"model" : {
+							"type": "minecraft:condition",
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/wither/standby"
+							},
+							"on_true": {
+								"type": "minecraft:range_dispatch",
+								"entries": [
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/wither/pulling_1"
+										},
+									"threshold": 0.65
+									},
+									{
+										"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/bow/material/wither/pulling_2"
+										},
+										"threshold": 0.9
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow/material/wither/pulling_0"
+								},
+								"property": "minecraft:use_duration",
+								"scale": 0.05
+							},
+							"property": "minecraft:using_item"
+						}
+					}
+				],
+				"fallback" : {
+					"type": "minecraft:condition",
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/bow/material/wooden/standby"
+					},
+					"on_true": {
+						"type": "minecraft:range_dispatch",
+						"entries": [
+							{
+								"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/wooden/pulling_1"
+								},
+							"threshold": 0.65
+							},
+							{
+								"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/bow/material/wooden/pulling_2"
+								},
+								"threshold": 0.9
+							}
+						],
+						"fallback": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/bow/material/wooden/pulling_0"
+						},
+						"property": "minecraft:use_duration",
+						"scale": 0.05
+					},
+					"property": "minecraft:using_item"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"on_false": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/bow/string/standby"
+				},
+				"on_true": {
+					"type": "minecraft:range_dispatch",
+					"entries": [
+						{
+							"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/bow/string/pulling_1"
+							},
+						"threshold": 0.65
+						},
+						{
+							"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/bow/string/pulling_2"
+							},
+							"threshold": 0.9
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/bow/string/pulling_0"
+					},
+					"property": "minecraft:use_duration",
+					"scale": 0.05
+				},
+				"property": "minecraft:using_item"
+			},
+			{
+				"type" : "minecraft:select",
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/wooden"
+						}
+					},
+					{
+						"when" : "blaze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/blaze"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/netherite"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/gold"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/emerald"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/rose"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/amethyst"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/diamond"
+						}
+					},
+					{
+						"when" : "void",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/void"
+						}
+					},
+					{
+						"when" : "oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/oak"
+						}
+					},
+					{
+						"when" : "birch",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/birch"
+						}
+					},
+					{
+						"when" : "spruce",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/spruce"
+						}
+					},
+					{
+						"when" : "jungle",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/jungle"
+						}
+					},
+					{
+						"when" : "acacia",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/acacia"
+						}
+					},
+					{
+						"when" : "cherry",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/cherry"
+						}
+					},
+					{
+						"when" : "mangrove",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/mangrove"
+						}
+					},
+					{
+						"when" : "dark_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/dark_oak"
+						}
+					},
+					{
+						"when" : "pale_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/pale_oak"
+						}
+					},
+					{
+						"when" : "crimson",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/crimson"
+						}
+					},
+					{
+						"when" : "warped",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/warped"
+						}
+					},
+					{
+						"when" : "breeze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/breeze"
+						}
+					},
+					{
+						"when" : "soot",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/soot"
+						}
+					},
+					{
+						"when" : "prismarine",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/bow/handle/prismarine"
+						}
+					}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/bow/handle/wooden"
+				}
+			},
+			{
+				"type" : "minecraft:model",
+				"model" : "minecraft:item/bow/grip"
+			},
+			{
+				"type": "minecraft:select",
+				"cases": [
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/iron"
+					},
+					"when": "minecraft:iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/redstone"
+					},
+					"when": "minecraft:redstone"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/emerald"
+					},
+					"when": "minecraft:emerald"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/gold"
+					},
+					"when": "minecraft:gold"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/obsidian"
+					},
+					"when": "ossurvivalplus:obsidian"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/copper"
+					},
+					"when": "minecraft:copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/resin"
+					},
+					"when": "minecraft:resin"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/netherite"
+					},
+					"when": "minecraft:netherite"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/amethyst"
+					},
+					"when": "minecraft:amethyst"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/quartz"
+					},
+					"when": "minecraft:quartz"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/diamond"
+					},
+					"when": "minecraft:diamond"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/lapis"
+					},
+					"when": "minecraft:lapis"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/oxidized_copper"
+					},
+					"when": "ossurvivalplus:oxidized_copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/raw_iron"
+					},
+					"when": "ossurvivalplus:raw_iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/echo"
+					},
+					"when": "ossurvivalplus:echo"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/breeze"
+					},
+					"when": "ossurvivalplus:breeze"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/rainbow"
+					},
+					"when": "ossurvivalplus:rainbow"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/void"
+					},
+					"when": "ossurvivalplus:void"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/pastel"
+					},
+					"when": "ossurvivalplus:pastel"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/bow/cocoa"
+					},
+					"when": "ossurvivalplus:cocoa"
+				  }
+				],
+				"fallback": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:trim_material"
+			  }
+		]
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_scythe",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/staff_trim_lapis"
+	}
+}

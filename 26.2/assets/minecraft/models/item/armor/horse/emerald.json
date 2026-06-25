@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor/horse_emerald",
+		"particle": "item/armor/horse_emerald"
+    }
+}

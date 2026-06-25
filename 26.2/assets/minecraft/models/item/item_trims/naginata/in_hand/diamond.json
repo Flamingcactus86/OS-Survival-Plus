@@ -1,0 +1,7 @@
+{
+	"parent":"item/spear_in_hand_reverse",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/naginata_trim_diamond"
+	}
+}

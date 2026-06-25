@@ -1,0 +1,1570 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type" : "minecraft:select",
+				"index" : 1,
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/wooden/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/wooden/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/wooden/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/wooden/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/wooden/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/wooden/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/wooden/1"
+							}
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/stone/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/stone/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/stone/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/stone/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/stone/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/stone/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/stone/1"
+							}
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/copper/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/copper/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/copper/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/copper/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/copper/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/copper/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/copper/1"
+							}
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/iron/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/iron/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/iron/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/iron/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/iron/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/iron/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/iron/1"
+							}
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/gold/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/gold/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/gold/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/gold/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/gold/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/gold/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/gold/1"
+							}
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/emerald/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/emerald/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/emerald/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/emerald/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/emerald/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/emerald/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/emerald/1"
+							}
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/amethyst/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/amethyst/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/amethyst/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/amethyst/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/amethyst/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/amethyst/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/amethyst/1"
+							}
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/rose/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/rose/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/rose/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/rose/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/rose/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/rose/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/rose/1"
+							}
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/diamond/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/diamond/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/diamond/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/diamond/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/diamond/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/diamond/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/diamond/1"
+							}
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/obsidian/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/obsidian/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/obsidian/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/obsidian/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/obsidian/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/obsidian/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/obsidian/1"
+							}
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type": "minecraft:range_dispatch",
+							"property": "minecraft:damage",
+							"entries": [
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/netherite/1"
+									},
+									"threshold": 0.0
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/netherite/2"
+									},
+									"threshold": 0.1
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/netherite/3"
+									},
+									"threshold": 0.3
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/netherite/4"
+									},
+									"threshold": 0.5
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/netherite/5"
+									},
+									"threshold": 0.7
+								},
+								{
+									"model": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/netherite/6"
+									},
+									"threshold": 0.9
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/netherite/1"
+							}
+						}
+					},
+							{
+								"when" : "blaze",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/blaze/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/blaze/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/blaze/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/blaze/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/blaze/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/blaze/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/blaze/1"
+									}
+								}
+							},
+							{
+								"when" : "bronze",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/bronze/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/bronze/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/bronze/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/bronze/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/bronze/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/bronze/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/bronze/1"
+									}
+								}
+							},
+							{
+								"when" : "echo",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/echo/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/echo/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/echo/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/echo/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/echo/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/echo/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/echo/1"
+									}
+								}
+							},
+							{
+								"when" : "lapis",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/lapis/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/lapis/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/lapis/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/lapis/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/lapis/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/lapis/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/lapis/1"
+									}
+								}
+							},
+							{
+								"when" : "resin",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/resin/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/resin/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/resin/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/resin/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/resin/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/resin/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/resin/1"
+									}
+								}
+							},
+							{
+								"when" : "ruby",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/ruby/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/ruby/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/ruby/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/ruby/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/ruby/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/ruby/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/ruby/1"
+									}
+								}
+							},
+							{
+								"when" : "silver",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/silver/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/silver/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/silver/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/silver/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/silver/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/silver/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/silver/1"
+									}
+								}
+							},
+							{
+								"when" : "steel",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/steel/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/steel/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/steel/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/steel/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/steel/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/steel/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/steel/1"
+									}
+								}
+							},
+							{
+								"when" : "uranium",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/uranium/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/uranium/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/uranium/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/uranium/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/uranium/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/uranium/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/uranium/1"
+									}
+								}
+							},
+							{
+								"when" : "wither",
+								"model" : {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:damage",
+									"entries": [
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/wither/1"
+											},
+											"threshold": 0.0
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/wither/2"
+											},
+											"threshold": 0.1
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/wither/3"
+											},
+											"threshold": 0.3
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/wither/4"
+											},
+											"threshold": 0.5
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/wither/5"
+											},
+											"threshold": 0.7
+										},
+										{
+											"model": {
+												"type": "minecraft:model",
+												"model": "minecraft:item/shovel/blade/wither/6"
+											},
+											"threshold": 0.9
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "minecraft:item/shovel/blade/wither/1"
+									}
+								}
+							}
+				],
+				"fallback" : {
+					"type": "minecraft:range_dispatch",
+					"property": "minecraft:damage",
+					"entries": [
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/wooden/1"
+							},
+							"threshold": 0.0
+						},
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/wooden/2"
+							},
+							"threshold": 0.1
+						},
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/wooden/3"
+							},
+							"threshold": 0.3
+						},
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/wooden/4"
+							},
+							"threshold": 0.5
+						},
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/wooden/5"
+							},
+							"threshold": 0.7
+						},
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/shovel/blade/wooden/6"
+							},
+							"threshold": 0.9
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/shovel/blade/wooden/1"
+					}
+				}
+			},
+			{
+				"type" : "minecraft:select",
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/wooden"
+						}
+					},
+					{
+						"when" : "blaze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/blaze"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/netherite"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/gold"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/emerald"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/rose"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/amethyst"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/diamond"
+						}
+					},
+					{
+						"when" : "void",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/void"
+						}
+					},
+					{
+						"when" : "oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/oak"
+						}
+					},
+					{
+						"when" : "birch",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/birch"
+						}
+					},
+					{
+						"when" : "spruce",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/spruce"
+						}
+					},
+					{
+						"when" : "jungle",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/jungle"
+						}
+					},
+					{
+						"when" : "acacia",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/acacia"
+						}
+					},
+					{
+						"when" : "cherry",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/cherry"
+						}
+					},
+					{
+						"when" : "mangrove",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/mangrove"
+						}
+					},
+					{
+						"when" : "dark_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/dark_oak"
+						}
+					},
+					{
+						"when" : "pale_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/pale_oak"
+						}
+					},
+					{
+						"when" : "crimson",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/crimson"
+						}
+					},
+					{
+						"when" : "warped",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/warped"
+						}
+					},
+					{
+						"when" : "breeze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/breeze"
+						}
+					},
+					{
+						"when" : "soot",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/soot"
+						}
+					},
+					{
+						"when" : "prismarine",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shovel/handle/prismarine"
+						}
+					}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/shovel/handle/wooden"
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"cases": [
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/iron"
+					},
+					"when": "minecraft:iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/redstone"
+					},
+					"when": "minecraft:redstone"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/emerald"
+					},
+					"when": "minecraft:emerald"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/gold"
+					},
+					"when": "minecraft:gold"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/obsidian"
+					},
+					"when": "ossurvivalplus:obsidian"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/copper"
+					},
+					"when": "minecraft:copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/resin"
+					},
+					"when": "minecraft:resin"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/netherite"
+					},
+					"when": "minecraft:netherite"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/amethyst"
+					},
+					"when": "minecraft:amethyst"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/quartz"
+					},
+					"when": "minecraft:quartz"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/diamond"
+					},
+					"when": "minecraft:diamond"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/lapis"
+					},
+					"when": "minecraft:lapis"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/oxidized_copper"
+					},
+					"when": "ossurvivalplus:oxidized_copper"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/raw_iron"
+					},
+					"when": "ossurvivalplus:raw_iron"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/echo"
+					},
+					"when": "ossurvivalplus:echo"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/breeze"
+					},
+					"when": "ossurvivalplus:breeze"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/rainbow"
+					},
+					"when": "ossurvivalplus:rainbow"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/void"
+					},
+					"when": "ossurvivalplus:void"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/pastel"
+					},
+					"when": "ossurvivalplus:pastel"
+				  },
+				  {
+					"model": {
+					  "type": "minecraft:model",
+					  "model": "minecraft:item/item_trims/shovel/cocoa"
+					},
+					"when": "ossurvivalplus:cocoa"
+				  }
+				],
+				"fallback": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:trim_material"
+			  }
+		]
+	}
+}

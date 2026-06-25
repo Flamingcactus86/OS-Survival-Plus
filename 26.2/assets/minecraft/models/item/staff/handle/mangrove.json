@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_scythe",
+    "textures": {
+        "layer0": "item/staff/handle_mangrove"
+    }
+}

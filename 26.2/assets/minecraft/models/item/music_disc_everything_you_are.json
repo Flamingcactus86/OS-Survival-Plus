@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/music_disc_everything_you_are",
+		"particle": "item/music_disc_everything_you_are"
+    }
+}

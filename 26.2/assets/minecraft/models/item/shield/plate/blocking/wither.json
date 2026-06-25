@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld_shield_blocking",
+    "textures": {
+        "layer0": "item/shield/plate_wither",
+		"particle": "#layer0"
+    }
+}

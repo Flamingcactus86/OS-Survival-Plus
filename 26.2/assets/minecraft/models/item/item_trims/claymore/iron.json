@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_greatsword",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/claymore_trim_iron"
+	}
+}

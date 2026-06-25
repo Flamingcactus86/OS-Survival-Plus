@@ -1,0 +1,7 @@
+{
+	"parent":"item/spyglass_in_hand",
+	"textures":{
+		"particle" : "item/stick",
+		"spyglass" : "trims/items/spyglass_trim_pastel"
+	}
+}

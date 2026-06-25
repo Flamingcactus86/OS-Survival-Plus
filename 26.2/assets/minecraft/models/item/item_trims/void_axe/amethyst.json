@@ -1,0 +1,6 @@
+{
+	"parent":"item/void_axe",
+	"textures":{
+		"layer0" : "trims/items/void_axe_trim_amethyst"
+	}
+}

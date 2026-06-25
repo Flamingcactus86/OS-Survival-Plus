@@ -1,0 +1,14 @@
+{
+	"layers":{
+		"humanoid":[
+			{
+				"texture":"minecraft:chainmail/rose"
+			}
+		],
+		"humanoid_leggings":[
+			{
+				"texture":"minecraft:chainmail/rose"
+			}
+		]
+	}
+}

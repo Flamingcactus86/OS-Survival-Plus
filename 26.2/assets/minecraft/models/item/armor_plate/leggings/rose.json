@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor/leggings/plate_rose",
+		"particle": "item/armor/leggings/plate_rose"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_lance",
+    "textures": {
+        "layer0": "item/lance/blade_uranium"
+    }
+}

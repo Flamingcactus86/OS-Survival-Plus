@@ -1,0 +1,7 @@
+{
+	"parent":"item/item_trims/greatsword/parent",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/branched_sword_trim_void"
+	}
+}

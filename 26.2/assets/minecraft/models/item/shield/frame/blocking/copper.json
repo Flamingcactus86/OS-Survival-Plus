@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_shield_blocking",
+    "textures": {
+        "layer0": "item/shield/frame_copper"
+    }
+}

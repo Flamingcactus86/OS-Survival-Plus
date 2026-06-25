@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_harpoon_ammo",
+  "textures": {
+    "layer0": "minecraft:item/harpoon/ammo/firework"
+  }
+}

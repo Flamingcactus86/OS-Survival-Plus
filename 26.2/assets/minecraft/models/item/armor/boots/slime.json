@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/slime_boots",
+		"particle": "item/slime_boots"
+    }
+}

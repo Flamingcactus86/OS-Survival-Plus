@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld_shield",
+    "textures": {
+        "layer0": "item/shield/plate_echo",
+		"particle": "#layer0"
+    }
+}

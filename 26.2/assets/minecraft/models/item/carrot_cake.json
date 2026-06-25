@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/carrot_cake",
+		"particle": "item/carrot_cake"
+    }
+}

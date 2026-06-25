@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_crossbow",
+    "textures": {
+        "layer0": "item/crossbow/handle_gold"
+    }
+}

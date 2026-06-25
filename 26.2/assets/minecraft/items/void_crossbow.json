@@ -1,0 +1,11 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type" : "minecraft:model",
+				"model" : "item/void_crossbow"
+			}
+		]
+	}
+}

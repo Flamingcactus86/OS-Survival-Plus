@@ -1,0 +1,6 @@
+{
+    "parent": "item/spyglass_in_hand",
+    "textures": {
+        "spyglass": "item/spyglass/blade_silver"
+    }
+}

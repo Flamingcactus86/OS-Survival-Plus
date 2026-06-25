@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_harpoon",
+    "textures": {
+        "layer0": "item/harpoon/handle_copper"
+    }
+}

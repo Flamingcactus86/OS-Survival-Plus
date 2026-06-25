@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_boomerang",
+    "textures": {
+        "layer0": "item/boomerang/handle/1_iron"
+    }
+}

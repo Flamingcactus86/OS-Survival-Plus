@@ -1,0 +1,14 @@
+{
+	"layers":{
+		"humanoid":[
+			{
+				"texture":"minecraft:plate/diamond"
+			}
+		],
+		"humanoid_leggings":[
+			{
+				"texture":"minecraft:diamond"
+			}
+		]
+	}
+}

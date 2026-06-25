@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_bow",
+    "textures": {
+        "layer0": "item/bow/material/pulling_2_diamond"
+    }
+}

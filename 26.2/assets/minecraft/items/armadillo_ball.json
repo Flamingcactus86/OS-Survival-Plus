@@ -1,0 +1,19 @@
+{
+	"model" : {
+		"type" : "minecraft:composite",
+		"models" : [
+			{
+				"type": "minecraft:model",
+				"model": "minecraft:item/armadillo_ball_overlay",
+				"tints" : [{
+				  "type": "minecraft:dye",
+				  "default": 0
+				}]
+			},
+			{
+				"type": "minecraft:model",
+				"model": "minecraft:item/armadillo_ball"
+			}
+		]
+	}
+}

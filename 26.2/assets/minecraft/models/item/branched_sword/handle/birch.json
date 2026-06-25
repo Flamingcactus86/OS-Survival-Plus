@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_greatsword",
+    "textures": {
+        "layer0": "item/branched_sword/handle_birch"
+    }
+}

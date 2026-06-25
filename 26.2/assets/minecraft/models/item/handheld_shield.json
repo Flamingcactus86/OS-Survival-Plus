@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent" : "item/generated",
+	"textures": {
+		"particle": "item/shield/frame_wooden"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [2.75, -1.25, 3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [2.75, -1.25, 3]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, -15],
+			"translation": [2, -0.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, -15],
+			"translation": [2, -0.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

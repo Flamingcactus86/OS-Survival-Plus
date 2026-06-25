@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_tower_shield_blocking",
+    "textures": {
+        "layer0": "item/tower_shield/frame_stone"
+    }
+}

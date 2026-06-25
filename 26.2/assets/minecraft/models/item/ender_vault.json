@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/ender_vault",
+		"particle": "item/ender_vault"
+    }
+}

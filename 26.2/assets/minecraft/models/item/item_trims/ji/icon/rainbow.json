@@ -1,0 +1,7 @@
+{
+	"parent":"item/generated",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/ji_icon_trim_rainbow"
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_scythe",
+    "textures": {
+        "layer0": "item/scythe/blade_copper"
+    }
+}

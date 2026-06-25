@@ -1,0 +1,6 @@
+{
+	"parent":"item/void_pickaxe",
+	"textures":{
+		"layer0" : "trims/items/void_pickaxe_trim_netherite"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent":"item/void_hammer",
+	"textures":{
+		"layer0" : "trims/items/void_hammer_trim_lapis"
+	}
+}

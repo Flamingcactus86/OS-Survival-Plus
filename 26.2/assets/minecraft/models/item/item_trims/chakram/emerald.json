@@ -1,0 +1,7 @@
+{
+	"parent":"item/handheld_chakram",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/chakram_trim_emerald"
+	}
+}

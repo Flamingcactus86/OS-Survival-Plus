@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/crescent_spear/handle_icon_amethyst"
+    }
+}

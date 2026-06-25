@@ -1,0 +1,6 @@
+{
+	"model" : {
+		"type" : "minecraft:model",
+		"model" : "minecraft:item/octostar_smithing_template"
+	}
+}

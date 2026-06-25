@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_tower_shield",
+    "textures": {
+        "layer0": "item/tower_shield/frame_warped"
+    }
+}

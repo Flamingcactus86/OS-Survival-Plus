@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/safety_crystal",
+		"particle": "item/safety_crystal"
+    }
+}

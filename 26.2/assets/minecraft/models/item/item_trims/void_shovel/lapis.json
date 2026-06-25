@@ -1,0 +1,6 @@
+{
+	"parent":"item/void_shovel",
+	"textures":{
+		"layer0" : "trims/items/void_shovel_trim_lapis"
+	}
+}

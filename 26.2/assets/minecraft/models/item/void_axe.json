@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld_void_weapon",
+	"textures": {
+		"layer0": "item/void_axe"
+	},
+	"display" : {
+		"gui": {
+			"translation": [2, 1, 0],
+			"scale": [1.25, 1.25, 1]
+		}
+	}
+}
