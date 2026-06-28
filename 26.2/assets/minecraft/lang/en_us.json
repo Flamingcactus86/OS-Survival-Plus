@@ -68,5 +68,6 @@
 	"death.attack.barnacle.item" : "%1$s was chewed up by %2$s using %3$s",
 	"attribute.name.entity_interaction_range": "Attack Range",
 	"sleep.not_possible": "Time speeds up when all are asleep",
-	"item.minecraft.cooked_cod" : "Cooked Fish"
+	"item.minecraft.cooked_cod" : "Cooked Fish",
+	"resourcepack.version" : "86"
 }
