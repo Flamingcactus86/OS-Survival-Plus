@@ -97,7 +97,8 @@
 				"trims/items/war_hammer_trim",
 				"trims/items/rapier_trim",
 				"trims/items/spyglass_trim",
-				"trims/items/spyglass_icon_trim"
+				"trims/items/spyglass_icon_trim",
+				"trims/items/blowgun_trim"
       ]
     },
 	{
@@ -184,6 +185,7 @@
 			"item/magic_tome/handle",
 			"item/spyglass/handle",
 			"item/spyglass/handle_icon",
+			"item/blowgun/handle",
 			"item/boomerang/handle/1",
 			"item/boomerang/handle/2",
 			"item/boomerang/handle/3",
@@ -333,6 +335,7 @@
 				"item/boomerang/gem",
 				"item/spyglass/blade",
 				"item/spyglass/blade_icon",
+				"item/blowgun/blade",
 				"item/blade_kit"
 		]
 	}

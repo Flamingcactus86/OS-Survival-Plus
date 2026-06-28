@@ -1,0 +1,7 @@
+{
+	"parent":"item/bow",
+	"textures":{
+		"particle" : "item/stick",
+		"layer0" : "trims/items/blowgun_trim_netherite"
+	}
+}
