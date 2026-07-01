@@ -1,7 +1,0 @@
-{
-	"parent" : "item/handheld_rod",
-	"textures" : {
-		"layer0" : "item/flail",
-		"particle" : "item/flail"
-	}
-}

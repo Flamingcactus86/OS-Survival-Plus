@@ -1,7 +1,0 @@
-{
-	"parent":"item/handheld_shovel/durability_1",
-	"textures":{
-		"particle" : "item/stick",
-		"0" : "trims/items/shovel_trim_pastel"
-	}
-}
