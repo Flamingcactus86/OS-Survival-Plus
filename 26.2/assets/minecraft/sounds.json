@@ -99,5 +99,17 @@
 		"sounds" : [
 			"entity/herobrine/glitch_music/dry_hands_glitch"
 		]
+	},
+	"entity.lightning_bolt.thunder" : {
+		"sounds" : [],
+		"replace" : true
+	},
+	"entity.lightning_bolt.thunder_fake" : {
+		"sounds" : [
+			"ambient/weather/thunder1",
+			"ambient/weather/thunder2",
+			"ambient/weather/thunder3"
+		],
+		"subtitle" : "subtitles.entity.lightning_bolt.thunder"
 	}
 }
