@@ -111,5 +111,414 @@
 			"ambient/weather/thunder3"
 		],
 		"subtitle" : "subtitles.entity.lightning_bolt.thunder"
-	}
+	},
+	"entity.shooting_star.twinkle" : {
+		"sounds": [
+		  "note/icechime"
+		],
+		"subtitle": "Shooting Star twinkles" 
+	},
+	"entity.shooting_star.land": {
+		"sounds": [
+		  "fireworks/twinkle_far1"
+		],
+		"subtitle": "Shooting Star lands"
+	},
+	"block.cannon.fail": {
+    "sounds": [
+      "random/fizz"
+    ],
+    "subtitle": "Cannon backfires"
+  },
+   "block.cannon.fire": {
+    "sounds": [
+      "random/explode1",
+      "random/explode2",
+      "random/explode3",
+      "random/explode4"
+    ],
+    "subtitle": "Cannon shoots"
+  },
+  "block.crossbow.fail": {
+    "sounds": [
+      "random/click"
+    ],
+    "subtitle": "Mounted Crossbow clicks"
+  },
+  "block.crossbow.shoot": {
+    "sounds": [
+      {
+        "name": "item/crossbow/shoot1",
+        "volume": 0.8
+      },
+      {
+        "name": "item/crossbow/shoot1",
+        "volume": 0.9
+      },
+      {
+        "name": "item/crossbow/shoot1",
+        "pitch": 0.9,
+        "volume": 0.9
+      },
+      {
+        "name": "item/crossbow/shoot2",
+        "volume": 0.8
+      },
+      {
+        "name": "item/crossbow/shoot2",
+        "volume": 0.9
+      },
+      {
+        "name": "item/crossbow/shoot2",
+        "pitch": 0.9,
+        "volume": 0.9
+      },
+      {
+        "name": "item/crossbow/shoot3",
+        "volume": 0.8
+      },
+      {
+        "name": "item/crossbow/shoot3",
+        "volume": 0.9
+      },
+      {
+        "name": "item/crossbow/shoot3",
+        "pitch": 0.9,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "Mounted Crossbow shoots"
+  },
+    "block.enchanting_table.lapis": {
+    "sounds": [
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted1",
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted1",
+        "pitch": 0.85,
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted1",
+        "pitch": 1.1,
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted2",
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted2",
+        "pitch": 0.85,
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted2",
+        "pitch": 1.1,
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted3",
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted3",
+        "pitch": 0.85,
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted3",
+        "pitch": 1.1,
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted4",
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted4",
+        "pitch": 0.85,
+        "volume": 0.8
+      },
+      {
+        "name": "block/chiseled_bookshelf/insert_enchanted4",
+        "pitch": 1.1,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "Enchanting Table absorbs Lapis Lazuli"
+  },
+  "block.enchanting_table.fail": {
+    "sounds": [
+      "random/fizz"
+    ],
+    "subtitle": "Enchanting failed"
+  },
+  "block.safety_crystal.break": {
+    "sounds": [
+      "random/glass1",
+      "random/glass2",
+      "random/glass3"
+    ],
+    "subtitle": "Safety Crystal destroyed"
+  },
+    "block.safety_crystal.fail": {
+    "sounds": [
+      "random/fizz"
+    ],
+    "subtitle": "Safety Crystal rejects item"
+  },
+    "block.safety_crystal.charge": {
+    "sounds": [
+      "block/respawn_anchor/charge1",
+      "block/respawn_anchor/charge2",
+      "block/respawn_anchor/charge3"
+    ],
+    "subtitle": "Safety Crystal charges"
+  },
+  "block.waypoint.hit": {
+    "sounds": [
+      "step/stone1",
+      "step/stone2",
+      "step/stone3",
+      "step/stone4",
+      "step/stone5",
+      "step/stone6"
+    ],
+    "subtitle": "Waypoint cracks"
+  },
+  "block.waypoint.break": {
+    "sounds": [
+      "random/glass1",
+      "random/glass2",
+      "random/glass3"
+    ],
+    "subtitle": "Waypoint destroyed"
+  },
+  "item.war_bell.use": {
+    "sounds": [
+      {
+        "name": "block/bell/bell_use01",
+        "pitch": 0.93,
+        "volume": 12.0
+      },
+      {
+        "name": "block/bell/bell_use01",
+        "pitch": 0.95,
+        "volume": 12.0
+      },
+      {
+        "name": "block/bell/bell_use01",
+        "pitch": 0.97,
+        "volume": 12.0
+      },
+      {
+        "name": "block/bell/bell_use02",
+        "pitch": 0.93,
+        "volume": 12.0
+      },
+      {
+        "name": "block/bell/bell_use02",
+        "pitch": 0.95,
+        "volume": 12.0
+      },
+      {
+        "name": "block/bell/bell_use02",
+        "pitch": 0.97,
+        "volume": 12.0
+      }
+    ],
+    "subtitle": "War Bell rings"
+  },
+  "entity.enderman.darkaggro": {
+    "sounds": [
+      "mob/endermen/scream1",
+      "mob/endermen/scream2",
+      "mob/endermen/scream3",
+      "mob/endermen/scream4"
+    ],
+    "subtitle": "Enderman notices player in dark"
+  },
+  "entity.meteor.explode": {
+    "sounds": [
+      "random/explode1",
+      "random/explode2",
+      "random/explode3",
+      "random/explode4"
+    ],
+    "subtitle": "Meteor explodes"
+  },
+  "entity.meteor.approach": {
+    "sounds": [
+      "random/fizz"
+    ],
+    "subtitle": "Meteor approaches"
+  },
+  "entity.meteor.falls": {
+    "sounds": [
+      "fireworks/launch1"
+    ],
+    "subtitle": "Meteor falling"
+  },
+  "entity.skeleton_dog.rebuild": {
+    "sounds": [
+      "mob/stray/convert1",
+      "mob/stray/convert2",
+      "mob/stray/convert3"
+    ],
+    "subtitle": "Skeletal Wolf rebuilds"
+  },
+  "entity.skeleton_dog.fall_apart": {
+    "sounds": [
+      "mob/skeleton/death"
+    ],
+    "subtitle": "Skeletal Wolf falls apart"
+  },
+  "entity.player.carapace.curl": {
+    "sounds": [
+      "mob/armadillo/roll1",
+      "mob/armadillo/roll2",
+      "mob/armadillo/roll3",
+      "mob/armadillo/roll4"
+    ],
+    "subtitle": "Player curls"
+  },
+  "entity.player.carapace.uncurl": {
+    "sounds": [
+      "mob/armadillo/unroll_finish1",
+      "mob/armadillo/unroll_finish2"
+    ],
+    "subtitle": "Player uncurls"
+  },
+  "entity.ashen_gaze.death": {
+    "sounds": [
+      {
+        "name": "entity/endereye/dead1",
+        "volume": 1.3
+      },
+      {
+        "name": "entity/endereye/dead2",
+        "volume": 1.3
+      }
+    ],
+    "subtitle": "Ashen Gaze breaks"
+  },
+  "entity.ashen_gaze.launch": {
+    "sounds": [
+      "entity/endereye/endereye_launch1",
+      "entity/endereye/endereye_launch2"
+    ],
+    "subtitle": "Ashen Gaze used"
+  },
+  "item.boomerang.throw": {
+    "sounds": [
+      "random/bow"
+    ],
+    "subtitle": "Boomerang thrown"
+  },
+  "item.shield.parry": {
+    "sounds": [
+      "random/orb"
+    ],
+    "subtitle": "Shield parries"
+  },
+  "item.enchantment.windstep.jump": {
+    "sounds": [
+      "mob/breeze/shoot",
+      {
+        "name": "mob/breeze/shoot",
+        "pitch": 1.1
+      },
+      {
+        "name": "mob/breeze/shoot",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "Windstep jump"
+  },
+  "item.enchantment.liftoff": {
+    "sounds": [
+      "fireworks/launch1"
+    ],
+    "subtitle": "Elytra lifts off"
+  },
+  "item.enchantment.mirror_coat": {
+    "sounds": [
+      "random/orb"
+    ],
+    "subtitle": "Mirror Coat surge"
+  },
+  "item.enchantment.prospecting": {
+    "sounds": [
+      "mob/zombie/metal1",
+      "mob/zombie/metal2",
+      "mob/zombie/metal3"
+    ],
+    "subtitle": "Prospecting"
+  },
+  "item.enchantment.wind_veil": {
+    "sounds": [
+      "mob/breeze/charge1",
+      "mob/breeze/charge2",
+      "mob/breeze/charge3"
+    ],
+    "subtitle": "Wind Veil activates"
+  },
+  "item.ender_vault.use": {
+    "sounds": [
+      {
+        "name": "block/enderchest/close",
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "Ender Vault accessed"
+  },
+  "item.bucket.fill_villager": {
+    "sounds": [
+      "item/bucket/fill_axolotl1",
+      "item/bucket/fill_axolotl2",
+      "item/bucket/fill_axolotl3"
+    ],
+    "subtitle": "Villager scooped"
+  },
+  "item.wand.shoot_spell": {
+    "sounds": [
+      "mob/ghast/fireball4"
+    ],
+    "subtitle": "Spell fired"
+  },
+  "item.wand.fail": {
+    "sounds": [
+      "random/fizz"
+    ],
+    "subtitle": "Spell Fails"
+  },
+  "item.enchantment.wind_veil.deflect": {
+    "sounds": [
+      "mob/breeze/deflect1",
+      "mob/breeze/deflect2",
+      "mob/breeze/deflect3"
+    ],
+    "subtitle": "Wind Veil reflects projectile"
+  },
+  "item.ghast_whistle.use": {
+    "sounds": [
+      "note/flute"
+    ],
+    "subtitle": "Ghast Whistle tweets"
+  },
+  "entity.player.quest.complete": {
+    "sounds": [
+      "random/levelup"
+    ],
+    "subtitle": "Quest Completed!"
+  },
+  "entity.wolf.revive": {
+    "sounds": [
+      "item/totem/use_totem"
+    ],
+    "subtitle": "Pet Revives"
+  }
 }
