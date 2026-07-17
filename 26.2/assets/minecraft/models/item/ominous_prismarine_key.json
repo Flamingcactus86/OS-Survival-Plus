@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/ominous_prismarine_key",
+		"particle": "item/ominous_prismarine_key"
+    }
+}
