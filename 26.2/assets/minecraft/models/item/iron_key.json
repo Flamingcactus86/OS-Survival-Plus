@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/iron_key",
+		"particle": "item/iron_key"
+    }
+}

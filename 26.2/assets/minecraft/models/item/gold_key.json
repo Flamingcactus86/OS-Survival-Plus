@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/gold_key",
+		"particle": "item/gold_key"
+    }
+}
