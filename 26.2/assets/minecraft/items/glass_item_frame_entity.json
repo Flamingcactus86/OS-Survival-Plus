@@ -1,0 +1,6 @@
+{
+	"model" : {
+		"type": "minecraft:model",
+		"model": "minecraft:item/entity/glass_item_frame"
+	}
+}

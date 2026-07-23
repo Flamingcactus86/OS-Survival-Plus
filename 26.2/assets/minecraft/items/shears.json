@@ -3,8 +3,361 @@
 		"type" : "minecraft:composite",
 		"models" : [
 			{
-				"type": "minecraft:model",
-				"model": "minecraft:item/shears"
+				"type" : "minecraft:select",
+				"index" : 1,
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/wooden"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/golden"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/emerald"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/amethyst"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/rose"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/diamond"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/blade/netherite"
+						}
+					},
+						{
+							"when" : "ruby",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/ruby"
+							}
+						},
+						{
+							"when" : "steel",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/steel"
+							}
+						},
+						{
+							"when" : "bronze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/bronze"
+							}
+						},
+						{
+							"when" : "silver",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/silver"
+							}
+						},
+						{
+							"when" : "blaze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/blaze"
+							}
+						},
+						{
+							"when" : "uranium",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/uranium"
+							}
+						},
+						{
+							"when" : "lapis",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/lapis"
+							}
+						},
+						{
+							"when" : "resin",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/resin"
+							}
+						},
+						{
+							"when" : "echo",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/echo"
+							}
+						},
+						{
+							"when" : "wither",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/shears/blade/wither"
+							}
+						}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/shears/blade/iron"
+				}
+			},
+			{
+				"type" : "minecraft:select",
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/wooden"
+						}
+					},
+					{
+						"when" : "blaze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/blaze"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/netherite"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/gold"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/emerald"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/rose"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/amethyst"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/diamond"
+						}
+					},
+					{
+						"when" : "void",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/void"
+						}
+					},
+					{
+						"when" : "oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/oak"
+						}
+					},
+					{
+						"when" : "birch",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/birch"
+						}
+					},
+					{
+						"when" : "spruce",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/spruce"
+						}
+					},
+					{
+						"when" : "jungle",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/jungle"
+						}
+					},
+					{
+						"when" : "acacia",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/acacia"
+						}
+					},
+					{
+						"when" : "cherry",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/cherry"
+						}
+					},
+					{
+						"when" : "mangrove",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/mangrove"
+						}
+					},
+					{
+						"when" : "dark_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/dark_oak"
+						}
+					},
+					{
+						"when" : "pale_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/pale_oak"
+						}
+					},
+					{
+						"when" : "crimson",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/crimson"
+						}
+					},
+					{
+						"when" : "warped",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/warped"
+						}
+					},
+					{
+						"when" : "breeze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/breeze"
+						}
+					},
+					{
+						"when" : "soot",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/soot"
+						}
+					},
+					{
+						"when" : "prismarine",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/shears/handle/prismarine"
+						}
+					}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/shears/handle/wooden"
+				}
 			},
 			{
 				"type": "minecraft:select",

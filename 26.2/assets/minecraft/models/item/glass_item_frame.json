@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/glass_item_frame",
+		"particle": "item/glass_item_frame"
+    }
+}
