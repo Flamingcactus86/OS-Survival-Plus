@@ -2,18 +2,363 @@
 	"model" : {
 		"type" : "minecraft:composite",
 		"models" : [
-			  {
-				"type": "minecraft:condition",
-				"on_false": {
-				  "type": "minecraft:model",
-				  "model": "minecraft:item/fishing_rod"
-				},
-				"on_true": {
-				  "type": "minecraft:model",
-				  "model": "minecraft:item/fishing_rod_cast"
-				},
-				"property": "minecraft:fishing_rod/cast"
-			  },
+			{
+				"type" : "minecraft:select",
+				"index" : 1,
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/wooden"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/golden"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/emerald"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/amethyst"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/rose"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/diamond"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/blade/netherite"
+						}
+					},
+						{
+							"when" : "ruby",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/ruby"
+							}
+						},
+						{
+							"when" : "steel",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/steel"
+							}
+						},
+						{
+							"when" : "bronze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/bronze"
+							}
+						},
+						{
+							"when" : "silver",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/silver"
+							}
+						},
+						{
+							"when" : "blaze",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/blaze"
+							}
+						},
+						{
+							"when" : "uranium",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/uranium"
+							}
+						},
+						{
+							"when" : "lapis",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/lapis"
+							}
+						},
+						{
+							"when" : "resin",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/resin"
+							}
+						},
+						{
+							"when" : "echo",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/echo"
+							}
+						},
+						{
+							"when" : "wither",
+							"model" : {
+								"type" : "minecraft:model",
+								"model" : "minecraft:item/fishing_rod/blade/wither"
+							}
+						}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/fishing_rod/blade/iron"
+				}
+			},
+			{
+				"type" : "minecraft:select",
+				"property" : "minecraft:custom_model_data",
+				"cases" : [
+					{
+						"when" : "wooden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/wooden"
+						}
+					},
+					{
+						"when" : "blaze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/blaze"
+						}
+					},
+					{
+						"when" : "obsidian",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/obsidian"
+						}
+					},
+					{
+						"when" : "netherite",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/netherite"
+						}
+					},
+					{
+						"when" : "stone",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/stone"
+						}
+					},
+					{
+						"when" : "copper",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/copper"
+						}
+					},
+					{
+						"when" : "iron",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/iron"
+						}
+					},
+					{
+						"when" : "golden",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/gold"
+						}
+					},
+					{
+						"when" : "emerald",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/emerald"
+						}
+					},
+					{
+						"when" : "rose",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/rose"
+						}
+					},
+					{
+						"when" : "amethyst",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/amethyst"
+						}
+					},
+					{
+						"when" : "diamond",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/diamond"
+						}
+					},
+					{
+						"when" : "void",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/void"
+						}
+					},
+					{
+						"when" : "oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/oak"
+						}
+					},
+					{
+						"when" : "birch",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/birch"
+						}
+					},
+					{
+						"when" : "spruce",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/spruce"
+						}
+					},
+					{
+						"when" : "jungle",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/jungle"
+						}
+					},
+					{
+						"when" : "acacia",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/acacia"
+						}
+					},
+					{
+						"when" : "cherry",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/cherry"
+						}
+					},
+					{
+						"when" : "mangrove",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/mangrove"
+						}
+					},
+					{
+						"when" : "dark_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/dark_oak"
+						}
+					},
+					{
+						"when" : "pale_oak",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/pale_oak"
+						}
+					},
+					{
+						"when" : "crimson",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/crimson"
+						}
+					},
+					{
+						"when" : "warped",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/warped"
+						}
+					},
+					{
+						"when" : "breeze",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/breeze"
+						}
+					},
+					{
+						"when" : "soot",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/soot"
+						}
+					},
+					{
+						"when" : "prismarine",
+						"model" : {
+							"type" : "minecraft:model",
+							"model" : "minecraft:item/fishing_rod/handle/prismarine"
+						}
+					}
+				],
+				"fallback" : {
+					"type" : "minecraft:model",
+					"model" : "minecraft:item/fishing_rod/handle/wooden"
+				}
+			},
 			{
 				"type": "minecraft:select",
 				"cases": [
@@ -163,6 +508,18 @@
 				  "model": "minecraft:item/empty"
 				},
 				"property": "minecraft:trim_material"
+			  },
+			  {
+				"type": "minecraft:condition",
+				"on_false": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/fishing_rod/hook"
+				},
+				"on_true": {
+				  "type": "minecraft:model",
+				  "model": "minecraft:item/empty"
+				},
+				"property": "minecraft:fishing_rod/cast"
 			  }
 		]
 	}
