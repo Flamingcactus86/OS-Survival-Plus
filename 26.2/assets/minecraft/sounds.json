@@ -332,14 +332,11 @@
     ],
     "subtitle": "War Bell rings"
   },
-  "entity.enderman.darkaggro": {
+  "entity.phantom.searchlight": {
     "sounds": [
-      "mob/endermen/scream1",
-      "mob/endermen/scream2",
-      "mob/endermen/scream3",
-      "mob/endermen/scream4"
+      "mob/guardian/curse"
     ],
-    "subtitle": "Enderman notices player in dark"
+    "subtitle": "Phantom spots player"
   },
   "entity.meteor.explode": {
     "sounds": [

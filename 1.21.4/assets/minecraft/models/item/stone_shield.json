@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "item/handheld_shield",
-	"textures": {
-		"0": "item/stone_shield",
-		"particle": "item/stone_shield"
-	}
-}

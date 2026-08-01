@@ -1,7 +1,0 @@
-{
-	"parent" : "item/vertical_slab",
-	"textures" : {
-		"0" : "block/cut_copper",
-		"particle" : "block/cut_copper"
-	}
-}

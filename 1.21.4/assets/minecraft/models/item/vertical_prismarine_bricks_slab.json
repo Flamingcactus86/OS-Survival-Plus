@@ -1,7 +1,0 @@
-{
-	"parent" : "item/vertical_slab",
-	"textures" : {
-		"0" : "block/prismarine_bricks",
-		"particle" : "block/prismarine_bricks"
-	}
-}
